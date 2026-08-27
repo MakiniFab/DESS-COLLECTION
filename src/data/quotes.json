@@ -1,0 +1,463 @@
+{
+  "database": "categorized_quotes",
+  "version": "2.0",
+  "total_categories": 7,
+  "total_records": 70,
+  "categories": [
+    {
+      "category_name": "Motivation & Ambition",
+      "quotes": [
+        {
+          "id": 1,
+          "quote": "The only way to do great work is to love what you do.",
+          "author": "Steve Jobs",
+          "tags": ["work", "passion", "success"]
+        },
+        {
+          "id": 2,
+          "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+          "author": "Winston Churchill",
+          "tags": ["courage", "success", "failure"]
+        },
+        {
+          "id": 3,
+          "quote": "Believe you can and you're halfway there.",
+          "author": "Theodore Roosevelt",
+          "tags": ["belief", "confidence", "mindset"]
+        },
+        {
+          "id": 4,
+          "quote": "Dream big and dare to fail.",
+          "author": "Norman Vaughan",
+          "tags": ["dreams", "risk", "boldness"]
+        },
+        {
+          "id": 5,
+          "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+          "author": "Zig Ziglar",
+          "tags": ["growth", "goals", "character"]
+        },
+        {
+          "id": 6,
+          "quote": "Action is the foundational key to all success.",
+          "author": "Pablo Picasso",
+          "tags": ["action", "success", "discipline"]
+        },
+        {
+          "id": 7,
+          "quote": "It always seems impossible until it's done.",
+          "author": "Nelson Mandela",
+          "tags": ["possibility", "perseverance", "achievement"]
+        },
+        {
+          "id": 8,
+          "quote": "Do not wait to strike till the iron is hot; but make it hot by striking.",
+          "author": "William Butler Yeats",
+          "tags": ["proactivity", "effort", "timing"]
+        },
+        {
+          "id": 9,
+          "quote": "The future belongs to those who believe in the beauty of their dreams.",
+          "author": "Eleanor Roosevelt",
+          "tags": ["future", "dreams", "hope"]
+        },
+        {
+          "id": 10,
+          "quote": "Aim for the moon. If you miss, you may hit a star.",
+          "author": "W. Clement Stone",
+          "tags": ["ambition", "goals", "perspective"]
+        }
+      ]
+    },
+    {
+      "category_name": "Philosophy & Wisdom",
+      "quotes": [
+        {
+          "id": 11,
+          "quote": "The only true wisdom is in knowing you know nothing.",
+          "author": "Socrates",
+          "tags": ["humility", "knowledge", "truth"]
+        },
+        {
+          "id": 12,
+          "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+          "author": "Aristotle",
+          "tags": ["habits", "excellence", "character"]
+        },
+        {
+          "id": 13,
+          "quote": "He who has a why to live can bear almost any how.",
+          "author": "Friedrich Nietzsche",
+          "tags": ["purpose", "resilience", "life"]
+        },
+        {
+          "id": 14,
+          "quote": "The unexamined life is not worth living.",
+          "author": "Socrates",
+          "tags": ["reflection", "self-awareness", "existence"]
+        },
+        {
+          "id": 15,
+          "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+          "author": "Jean-Paul Sartre",
+          "tags": ["freedom", "responsibility", "existentialism"]
+        },
+        {
+          "id": 16,
+          "quote": "Happiness depends upon ourselves.",
+          "author": "Aristotle",
+          "tags": ["happiness", "choice", "self-reliance"]
+        },
+        {
+          "id": 17,
+          "quote": "Wise men speak because they have something to say; Fools because they have to say something.",
+          "author": "Plato",
+          "tags": ["wisdom", "speech", "restraint"]
+        },
+        {
+          "id": 18,
+          "quote": "Liberty consists in doing what one desires.",
+          "author": "John Stuart Mill",
+          "tags": ["liberty", "desire", "ethics"]
+        },
+        {
+          "id": 19,
+          "quote": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+          "author": "Marcus Aurelius",
+          "tags": ["stoicism", "mindset", "control"]
+        },
+        {
+          "id": 20,
+          "quote": "The mind is everything. What you think you become.",
+          "author": "Buddha",
+          "tags": ["thought", "mindfulness", "perception"]
+        }
+      ]
+    },
+    {
+      "category_name": "Creativity & Art",
+      "quotes": [
+        {
+          "id": 21,
+          "quote": "Creativity is intelligence having fun.",
+          "author": "Albert Einstein",
+          "tags": ["intelligence", "play", "imagination"]
+        },
+        {
+          "id": 22,
+          "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+          "author": "Pablo Picasso",
+          "tags": ["childhood", "art", "preservation"]
+        },
+        {
+          "id": 23,
+          "quote": "You can't use up creativity. The more you use, the more you have.",
+          "author": "Maya Angelou",
+          "tags": ["abundance", "expression", "inspiration"]
+        },
+        {
+          "id": 24,
+          "quote": "Art enables us to find ourselves and lose ourselves at the same time.",
+          "author": "Thomas Merton",
+          "tags": ["self-discovery", "art", "transcendence"]
+        },
+        {
+          "id": 25,
+          "quote": "Creativity takes courage.",
+          "author": "Henri Matisse",
+          "tags": ["courage", "vulnerability", "expression"]
+        },
+        {
+          "id": 26,
+          "quote": "An artist is not paid for his labor but for his vision.",
+          "author": "James Whistler",
+          "tags": ["vision", "value", "artistry"]
+        },
+        {
+          "id": 27,
+          "quote": "To create one's own world takes courage.",
+          "author": "Georgia O'Keeffe",
+          "tags": ["independence", "creation", "individuality"]
+        },
+        {
+          "id": 28,
+          "quote": "Inspiration exists, but it has to find you working.",
+          "author": "Pablo Picasso",
+          "tags": ["work-ethic", "inspiration", "craft"]
+        },
+        {
+          "id": 29,
+          "quote": "The chief enemy of creativity is 'good' sense.",
+          "author": "Pablo Picasso",
+          "tags": ["logic", "originality", "convention"]
+        },
+        {
+          "id": 30,
+          "quote": "Curiosity about life in all of its aspects, I think, is still the secret of great creative people.",
+          "author": "Leo Burnett",
+          "tags": ["curiosity", "life", "creative-process"]
+        }
+      ]
+    },
+    {
+      "category_name": "Science & Innovation",
+      "quotes": [
+        {
+          "id": 31,
+          "quote": "Science is a way of thinking much more than it is a body of knowledge.",
+          "author": "Carl Sagan",
+          "tags": ["methodology", "thinking", "curiosity"]
+        },
+        {
+          "id": 32,
+          "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+          "author": "Marie Curie",
+          "tags": ["fear", "understanding", "knowledge"]
+        },
+        {
+          "id": 33,
+          "quote": "If I have seen further it is by standing on the shoulders of Giants.",
+          "author": "Isaac Newton",
+          "tags": ["humility", "progress", "collaboration"]
+        },
+        {
+          "id": 34,
+          "quote": "Somewhere, something incredible is waiting to be known.",
+          "author": "Carl Sagan",
+          "tags": ["discovery", "wonder", "exploration"]
+        },
+        {
+          "id": 35,
+          "quote": "The good thing about science is that it's true whether or not you believe in it.",
+          "author": "Neil deGrasse Tyson",
+          "tags": ["truth", "facts", "reality"]
+        },
+        {
+          "id": 36,
+          "quote": "Innovation distinguishes between a leader and a follower.",
+          "author": "Steve Jobs",
+          "tags": ["innovation", "leadership", "originality"]
+        },
+        {
+          "id": 37,
+          "quote": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+          "author": "Albert Einstein",
+          "tags": ["imagination", "knowledge", "potential"]
+        },
+        {
+          "id": 38,
+          "quote": "Equipped with his five senses, man explores the universe around him and calls the adventure Science.",
+          "author": "Edwin Powell Hubble",
+          "tags": ["exploration", "senses", "universe"]
+        },
+        {
+          "id": 39,
+          "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+          "author": "Albert Einstein",
+          "tags": ["questions", "curiosity", "inquiry"]
+        },
+        {
+          "id": 40,
+          "quote": "Research is what I'm doing when I don't know what I'm doing.",
+          "author": "Wernher von Braun",
+          "tags": ["research", "unknown", "discovery"]
+        }
+      ]
+    },
+    {
+      "category_name": "Resilience & Perseverance",
+      "quotes": [
+        {
+          "id": 41,
+          "quote": "It does not matter how slowly you go as long as you do not stop.",
+          "author": "Confucius",
+          "tags": ["patience", "pace", "persistence"]
+        },
+        {
+          "id": 42,
+          "quote": "In the middle of difficulty lies opportunity.",
+          "author": "Albert Einstein",
+          "tags": ["adversity", "opportunity", "hope"]
+        },
+        {
+          "id": 43,
+          "quote": "Life is 10% what happens to you and 90% how you react to it.",
+          "author": "Charles R. Swindoll",
+          "tags": ["attitude", "reaction", "perspective"]
+        },
+        {
+          "id": 44,
+          "quote": "Our greatest glory is not in never falling, but in rising every time we fall.",
+          "author": "Oliver Goldsmith",
+          "tags": ["failure", "recovery", "strength"]
+        },
+        {
+          "id": 45,
+          "quote": "Fall seven times and stand up eight.",
+          "author": "Japanese Proverb",
+          "tags": ["tenacity", "grit", "bounce-back"]
+        },
+        {
+          "id": 46,
+          "quote": "Rock bottom became the solid foundation on which I rebuilt my life.",
+          "author": "J.K. Rowling",
+          "tags": ["rebuilding", "struggles", "foundation"]
+        },
+        {
+          "id": 47,
+          "quote": "The oak fought the wind and was broken, the willow bent when it must and survived.",
+          "author": "Robert Jordan",
+          "tags": ["adaptability", "flexibility", "survival"]
+        },
+        {
+          "id": 48,
+          "quote": "Hardships often prepare ordinary people for an extraordinary destiny.",
+          "author": "C.S. Lewis",
+          "tags": ["hardship", "destiny", "purpose"]
+        },
+        {
+          "id": 49,
+          "quote": "Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.",
+          "author": "Kahlil Gibran",
+          "tags": ["suffering", "character", "strength"]
+        },
+        {
+          "id": 50,
+          "quote": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'",
+          "author": "Mary Anne Radmacher",
+          "tags": ["quiet-courage", "trying", "patience"]
+        }
+      ]
+    },
+    {
+      "category_name": "Leadership & Impact",
+      "quotes": [
+        {
+          "id": 51,
+          "quote": "Be the change that you wish to see in the world.",
+          "author": "Mahatma Gandhi",
+          "tags": ["example", "impact", "world"]
+        },
+        {
+          "id": 52,
+          "quote": "A leader is one who knows the way, goes the way, and shows the way.",
+          "author": "John C. Maxwell",
+          "tags": ["direction", "example", "guidance"]
+        },
+        {
+          "id": 53,
+          "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+          "author": "Ralph Waldo Emerson",
+          "tags": ["trailblazing", "initiative", "originality"]
+        },
+        {
+          "id": 54,
+          "quote": "To handle yourself, use your head; to handle others, use your heart.",
+          "author": "Eleanor Roosevelt",
+          "tags": ["empathy", "self-control", "management"]
+        },
+        {
+          "id": 55,
+          "quote": "Leadership is not about a title or a designation. It's about impact, influence and inspiration.",
+          "author": "Robin S. Sharma",
+          "tags": ["influence", "inspiration", "action"]
+        },
+        {
+          "id": 56,
+          "quote": "The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things.",
+          "author": "Ronald Reagan",
+          "tags": ["empowerment", "people", "delegation"]
+        },
+        {
+          "id": 57,
+          "quote": "Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.",
+          "author": "Margaret Mead",
+          "tags": ["community", "change", "commitment"]
+        },
+        {
+          "id": 58,
+          "quote": "Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others.",
+          "author": "Jack Welch",
+          "tags": ["growth", "mentorship", "success"]
+        },
+        {
+          "id": 59,
+          "quote": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
+          "author": "John Quincy Adams",
+          "tags": ["inspiration", "growth", "purpose"]
+        },
+        {
+          "id": 60,
+          "quote": "Management is doing things right; leadership is doing the right things.",
+          "author": "Peter Drucker",
+          "tags": ["vision", "integrity", "management"]
+        }
+      ]
+    },
+    {
+      "category_name": "Mindfulness & Peace",
+      "quotes": [
+        {
+          "id": 61,
+          "quote": "Peace comes from within. Do not seek it without.",
+          "author": "Buddha",
+          "tags": ["peace", "internal", "seeking"]
+        },
+        {
+          "id": 62,
+          "quote": "Realize deeply that the present moment is all you have. Make the NOW the primary focus of your life.",
+          "author": "Eckhart Tolle",
+          "tags": ["present-moment", "now", "awareness"]
+        },
+        {
+          "id": 63,
+          "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+          "author": "Buddha",
+          "tags": ["focus", "past", "future"]
+        },
+        {
+          "id": 64,
+          "quote": "Quiet the mind, and the soul will speak.",
+          "author": "Ma Jaya Sati Bhagavati",
+          "tags": ["stillness", "soul", "listening"]
+        },
+        {
+          "id": 65,
+          "quote": "Smile, breathe and go slowly.",
+          "author": "Thich Nhat Hanh",
+          "tags": ["simplicity", "breath", "patience"]
+        },
+        {
+          "id": 66,
+          "quote": "Surrender to what is. Let go of what was. Have faith in what will be.",
+          "author": "Sonia Ricotti",
+          "tags": ["surrender", "letting-go", "faith"]
+        },
+        {
+          "id": 67,
+          "quote": "Tension is who you think you should be. Relaxation is who you are.",
+          "author": "Chinese Proverb",
+          "tags": ["authenticity", "tension", "relaxation"]
+        },
+        {
+          "id": 68,
+          "quote": "The primary cause of unhappiness is never the situation but your thoughts about it.",
+          "author": "Eckhart Tolle",
+          "tags": ["unhappiness", "perception", "mind"]
+        },
+        {
+          "id": 69,
+          "quote": "In today's rush, we all think too much, seek too much, want too much and forget about the joy of just Being.",
+          "author": "Eckhart Tolle",
+          "tags": ["being", "slowing-down", "contentment"]
+        },
+        {
+          "id": 70,
+          "quote": "Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.",
+          "author": "Thich Nhat Hanh",
+          "tags": ["emotions", "breathing", "anchor"]
+        }
+      ]
+    }
+  ]
+}
