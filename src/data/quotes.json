@@ -1,461 +1,265 @@
 {
-  "database": "categorized_quotes",
+  "database": "clothing_inventory",
   "version": "2.0",
-  "total_categories": 7,
-  "total_records": 70,
+  "total_categories": 3,
   "categories": [
     {
-      "category_name": "Motivation & Ambition",
-      "quotes": [
+      "category_name": "Dresses",
+      "items": [
         {
-          "id": 1,
-          "quote": "The only way to do great work is to love what you do.",
-          "author": "Steve Jobs",
-          "tags": ["work", "passion", "success"]
+          "id": 101,
+          "name": "Floral Summer Maxi Dress",
+          "price": 45.00,
+          "discount_price": 35.00,
+          "description": "Lightweight breathable cotton dress perfect for sunny days. Features adjustable straps and a flowy silhouette.",
+          "image": "d1.webp",
+          "gallery": ["d1.webp"],
+          "tags": ["summer", "floral", "cotton"],
+          "likes": 24,
+          "inStock": true
         },
         {
-          "id": 2,
-          "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-          "author": "Winston Churchill",
-          "tags": ["courage", "success", "failure"]
+          "id": 102,
+          "name": "Elegance Evening Gown",
+          "price": 120.00,
+          "discount_price": 95.00,
+          "description": "Silk finish slim-fit evening dress with formal neckline and subtle side slit for modern elegance.",
+          "image": "d2.webp",
+          "gallery": ["d2.webp"],
+          "tags": ["formal", "silk", "evening"],
+          "likes": 58,
+          "inStock": true
         },
         {
-          "id": 3,
-          "quote": "Believe you can and you're halfway there.",
-          "author": "Theodore Roosevelt",
-          "tags": ["belief", "confidence", "mindset"]
+          "id": 103,
+          "name": "Boho Chic Midi Sundress",
+          "price": 50.00,
+          "discount_price": 40.00,
+          "description": "Relaxed Bohemian style midi dress with tiered ruffle skirts and elastic smocked bust.",
+          "image": "d3.webp",
+          "gallery": ["d3.webp"],
+          "tags": ["boho", "casual", "midi"],
+          "likes": 39,
+          "inStock": true
         },
         {
-          "id": 4,
-          "quote": "Dream big and dare to fail.",
-          "author": "Norman Vaughan",
-          "tags": ["dreams", "risk", "boldness"]
+          "id": 104,
+          "name": "Classic Satin Slip Dress",
+          "price": 68.00,
+          "discount_price": null,
+          "description": "Minimalist bias-cut satin dress with delicate spaghetti straps that drapes effortlessly over curves.",
+          "image": "d4.webp",
+          "gallery": ["d4.webp"],
+          "tags": ["satin", "slip", "minimalist"],
+          "likes": 47,
+          "inStock": true
         },
         {
-          "id": 5,
-          "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
-          "author": "Zig Ziglar",
-          "tags": ["growth", "goals", "character"]
-        },
-        {
-          "id": 6,
-          "quote": "Action is the foundational key to all success.",
-          "author": "Pablo Picasso",
-          "tags": ["action", "success", "discipline"]
-        },
-        {
-          "id": 7,
-          "quote": "It always seems impossible until it's done.",
-          "author": "Nelson Mandela",
-          "tags": ["possibility", "perseverance", "achievement"]
-        },
-        {
-          "id": 8,
-          "quote": "Do not wait to strike till the iron is hot; but make it hot by striking.",
-          "author": "William Butler Yeats",
-          "tags": ["proactivity", "effort", "timing"]
-        },
-        {
-          "id": 9,
-          "quote": "The future belongs to those who believe in the beauty of their dreams.",
-          "author": "Eleanor Roosevelt",
-          "tags": ["future", "dreams", "hope"]
-        },
-        {
-          "id": 10,
-          "quote": "Aim for the moon. If you miss, you may hit a star.",
-          "author": "W. Clement Stone",
-          "tags": ["ambition", "goals", "perspective"]
+          "id": 105,
+          "name": "A-Line Wrap Bodycon Dress",
+          "price": 55.00,
+          "discount_price": 42.00,
+          "description": "Flattering V-neck wrap dress with side tie waist, perfect for both day-to-night transitions.",
+          "image": "momom.webp",
+          "gallery": ["momom.webp"],
+          "tags": ["wrap", "aline", "party"],
+          "likes": 31,
+          "inStock": true
         }
       ]
     },
     {
-      "category_name": "Philosophy & Wisdom",
-      "quotes": [
+      "category_name": "Jackets & Coats",
+      "items": [
         {
-          "id": 11,
-          "quote": "The only true wisdom is in knowing you know nothing.",
-          "author": "Socrates",
-          "tags": ["humility", "knowledge", "truth"]
+          "id": 201,
+          "name": "Classic Vintage Denim Jacket",
+          "price": 65.00,
+          "discount_price": 50.00,
+          "description": "Timeless mid-wash denim jacket featuring sturdy brass buttons, chest flap pockets, and reinforced stitching.",
+          "image": "e1.webp",
+          "gallery": ["e1.webp"],
+          "tags": ["denim", "vintage", "casual"],
+          "likes": 42,
+          "inStock": true
         },
         {
-          "id": 12,
-          "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
-          "author": "Aristotle",
-          "tags": ["habits", "excellence", "character"]
+          "id": 202,
+          "name": "Insulated Puffer Winter Coat",
+          "price": 110.00,
+          "discount_price": 85.00,
+          "description": "Quilted thermal outerwear designed to trap heat in cold weather. Features a windproof outer shell and detachable hood.",
+          "image": "e2.webp",
+          "gallery": ["e2.webp"],
+          "tags": ["winter", "puffer", "warm"],
+          "likes": 78,
+          "inStock": true
         },
         {
-          "id": 13,
-          "quote": "He who has a why to live can bear almost any how.",
-          "author": "Friedrich Nietzsche",
-          "tags": ["purpose", "resilience", "life"]
+          "id": 203,
+          "name": "Sleek Faux Leather Biker Jacket",
+          "price": 88.00,
+          "discount_price": 70.00,
+          "description": "Modern asymmetrical zip biker jacket crafted from premium faux leather with metallic hardware and lapel snaps.",
+          "image": "e3.webp",
+          "gallery": ["e3.webp"],
+          "tags": ["leather", "biker", "edgy"],
+          "likes": 95,
+          "inStock": true
         },
         {
-          "id": 14,
-          "quote": "The unexamined life is not worth living.",
-          "author": "Socrates",
-          "tags": ["reflection", "self-awareness", "existence"]
+          "id": 204,
+          "name": "Tailored Wool Blend Trench Coat",
+          "price": 135.00,
+          "discount_price": null,
+          "description": "Elegant double-breasted long trench coat with a waist belt, deep side pockets, and structured shoulder pads.",
+          "image": "e4.webp",
+          "gallery": ["e4.webp"],
+          "tags": ["formal", "wool", "trench"],
+          "likes": 34,
+          "inStock": true
         },
         {
-          "id": 15,
-          "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
-          "author": "Jean-Paul Sartre",
-          "tags": ["freedom", "responsibility", "existentialism"]
-        },
-        {
-          "id": 16,
-          "quote": "Happiness depends upon ourselves.",
-          "author": "Aristotle",
-          "tags": ["happiness", "choice", "self-reliance"]
-        },
-        {
-          "id": 17,
-          "quote": "Wise men speak because they have something to say; Fools because they have to say something.",
-          "author": "Plato",
-          "tags": ["wisdom", "speech", "restraint"]
-        },
-        {
-          "id": 18,
-          "quote": "Liberty consists in doing what one desires.",
-          "author": "John Stuart Mill",
-          "tags": ["liberty", "desire", "ethics"]
-        },
-        {
-          "id": 19,
-          "quote": "You have power over your mind - not outside events. Realize this, and you will find strength.",
-          "author": "Marcus Aurelius",
-          "tags": ["stoicism", "mindset", "control"]
-        },
-        {
-          "id": 20,
-          "quote": "The mind is everything. What you think you become.",
-          "author": "Buddha",
-          "tags": ["thought", "mindfulness", "perception"]
+          "id": 205,
+          "name": "Lightweight Waterproof Windbreaker",
+          "price": 45.00,
+          "discount_price": 32.00,
+          "description": "Packable rain jacket with a zip-up front, breathable mesh lining, and adjustable drawstring hem.",
+          "image": "e5.webp",
+          "gallery": ["e5.webp"],
+          "tags": ["rainwear", "lightweight", "outdoor"],
+          "likes": 21,
+          "inStock": true
         }
       ]
     },
     {
-      "category_name": "Creativity & Art",
-      "quotes": [
+      "category_name": "Shirts",
+      "items": [
         {
-          "id": 21,
-          "quote": "Creativity is intelligence having fun.",
-          "author": "Albert Einstein",
-          "tags": ["intelligence", "play", "imagination"]
+          "id": 301,
+          "name": "Classic Oxford Cotton Shirt",
+          "price": 38.00,
+          "discount_price": 28.00,
+          "description": "Tailored fit button-down oxford shirt made from premium breathable cotton. Ideal for smart-casual wear.",
+          "image": "s1.webp",
+          "gallery": ["s1.webp"],
+          "tags": ["cotton", "oxford", "casual"],
+          "likes": 32,
+          "inStock": true
         },
         {
-          "id": 22,
-          "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
-          "author": "Pablo Picasso",
-          "tags": ["childhood", "art", "preservation"]
+          "id": 302,
+          "name": "Tropical Printed Resort Shirt",
+          "price": 34.00,
+          "discount_price": 25.00,
+          "description": "Short-sleeve Cuban collar shirt featuring a subtle palm leaf print. Lightweight and breezy for warm days.",
+          "image": "s2.webp",
+          "gallery": ["s2.webp"],
+          "tags": ["summer", "floral", "resort"],
+          "likes": 45,
+          "inStock": true
         },
         {
-          "id": 23,
-          "quote": "You can't use up creativity. The more you use, the more you have.",
-          "author": "Maya Angelou",
-          "tags": ["abundance", "expression", "inspiration"]
+          "id": 303,
+          "name": "Casual Relaxed Linen Shirt",
+          "price": 42.00,
+          "discount_price": null,
+          "description": "100% pure linen casual shirt with a relaxed silhouette and soft hand-feel. Perfect for tropical climates.",
+          "image": "s3.webp",
+          "gallery": ["s3.webp"],
+          "tags": ["linen", "relaxed", "summer"],
+          "likes": 19,
+          "inStock": true
         },
         {
-          "id": 24,
-          "quote": "Art enables us to find ourselves and lose ourselves at the same time.",
-          "author": "Thomas Merton",
-          "tags": ["self-discovery", "art", "transcendence"]
+          "id": 304,
+          "name": "Vintage Denim Button-Up",
+          "price": 52.00,
+          "discount_price": 40.00,
+          "description": "Mid-wash chambray denim shirt with double chest pockets and durable brass snap buttons.",
+          "image": "s4.webp",
+          "gallery": ["s4.webp"],
+          "tags": ["denim", "vintage", "casual"],
+          "likes": 61,
+          "inStock": true
         },
         {
-          "id": 25,
-          "quote": "Creativity takes courage.",
-          "author": "Henri Matisse",
-          "tags": ["courage", "vulnerability", "expression"]
-        },
-        {
-          "id": 26,
-          "quote": "An artist is not paid for his labor but for his vision.",
-          "author": "James Whistler",
-          "tags": ["vision", "value", "artistry"]
-        },
-        {
-          "id": 27,
-          "quote": "To create one's own world takes courage.",
-          "author": "Georgia O'Keeffe",
-          "tags": ["independence", "creation", "individuality"]
-        },
-        {
-          "id": 28,
-          "quote": "Inspiration exists, but it has to find you working.",
-          "author": "Pablo Picasso",
-          "tags": ["work-ethic", "inspiration", "craft"]
-        },
-        {
-          "id": 29,
-          "quote": "The chief enemy of creativity is 'good' sense.",
-          "author": "Pablo Picasso",
-          "tags": ["logic", "originality", "convention"]
-        },
-        {
-          "id": 30,
-          "quote": "Curiosity about life in all of its aspects, I think, is still the secret of great creative people.",
-          "author": "Leo Burnett",
-          "tags": ["curiosity", "life", "creative-process"]
+          "id": 305,
+          "name": "Slim-Fit Poplin Dress Shirt",
+          "price": 48.00,
+          "discount_price": 36.00,
+          "description": "Crisp poplin weave shirt with spread collar and French cuffs for a modern sharp business look.",
+          "image": "s5.webp",
+          "gallery": ["s5.webp"],
+          "tags": ["formal", "business", "cotton"],
+          "likes": 27,
+          "inStock": true
         }
       ]
     },
     {
-      "category_name": "Science & Innovation",
-      "quotes": [
+      "category_name": "Shoes",
+      "items": [
         {
-          "id": 31,
-          "quote": "Science is a way of thinking much more than it is a body of knowledge.",
-          "author": "Carl Sagan",
-          "tags": ["methodology", "thinking", "curiosity"]
+          "id": 401,
+          "name": "Classic Canvas Low-Top Sneakers",
+          "price": 55.00,
+          "discount_price": 42.00,
+          "description": "Timeless low-top canvas sneakers with durable rubber soles and cushioned footbeds for all-day comfort.",
+          "image": "c1.webp",
+          "gallery": ["c1.webp"],
+          "tags": ["casual", "canvas", "sneakers"],
+          "likes": 38,
+          "inStock": true
         },
         {
-          "id": 32,
-          "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
-          "author": "Marie Curie",
-          "tags": ["fear", "understanding", "knowledge"]
+          "id": 402,
+          "name": "Urban Breathable Running Shoes",
+          "price": 75.00,
+          "discount_price": 60.00,
+          "description": "Lightweight mesh athletic shoes engineered for superior shock absorption and maximum airflow.",
+          "image": "c2.webp",
+          "gallery": ["c2.webp"],
+          "tags": ["sport", "running", "breathable"],
+          "likes": 64,
+          "inStock": true
         },
         {
-          "id": 33,
-          "quote": "If I have seen further it is by standing on the shoulders of Giants.",
-          "author": "Isaac Newton",
-          "tags": ["humility", "progress", "collaboration"]
+          "id": 403,
+          "name": "Handcrafted Leather Penny Loafers",
+          "price": 110.00,
+          "discount_price": null,
+          "description": "Premium full-grain leather loafers featuring hand-stitched detailing and a polished formal finish.",
+          "image": "c3.webp",
+          "gallery": ["c3.webp"],
+          "tags": ["leather", "formal", "loafers"],
+          "likes": 29,
+          "inStock": true
         },
         {
-          "id": 34,
-          "quote": "Somewhere, something incredible is waiting to be known.",
-          "author": "Carl Sagan",
-          "tags": ["discovery", "wonder", "exploration"]
+          "id": 404,
+          "name": "Suede Ankle Chelsea Boots",
+          "price": 95.00,
+          "discount_price": 78.00,
+          "description": "Classic suede leather Chelsea boots with elastic side gores and sturdy non-slip outsoles.",
+          "image": "c4.webp",
+          "gallery": ["c4.webp"],
+          "tags": ["boots", "suede", "casual"],
+          "likes": 51,
+          "inStock": true
         },
         {
-          "id": 35,
-          "quote": "The good thing about science is that it's true whether or not you believe in it.",
-          "author": "Neil deGrasse Tyson",
-          "tags": ["truth", "facts", "reality"]
-        },
-        {
-          "id": 36,
-          "quote": "Innovation distinguishes between a leader and a follower.",
-          "author": "Steve Jobs",
-          "tags": ["innovation", "leadership", "originality"]
-        },
-        {
-          "id": 37,
-          "quote": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
-          "author": "Albert Einstein",
-          "tags": ["imagination", "knowledge", "potential"]
-        },
-        {
-          "id": 38,
-          "quote": "Equipped with his five senses, man explores the universe around him and calls the adventure Science.",
-          "author": "Edwin Powell Hubble",
-          "tags": ["exploration", "senses", "universe"]
-        },
-        {
-          "id": 39,
-          "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
-          "author": "Albert Einstein",
-          "tags": ["questions", "curiosity", "inquiry"]
-        },
-        {
-          "id": 40,
-          "quote": "Research is what I'm doing when I don't know what I'm doing.",
-          "author": "Wernher von Braun",
-          "tags": ["research", "unknown", "discovery"]
-        }
-      ]
-    },
-    {
-      "category_name": "Resilience & Perseverance",
-      "quotes": [
-        {
-          "id": 41,
-          "quote": "It does not matter how slowly you go as long as you do not stop.",
-          "author": "Confucius",
-          "tags": ["patience", "pace", "persistence"]
-        },
-        {
-          "id": 42,
-          "quote": "In the middle of difficulty lies opportunity.",
-          "author": "Albert Einstein",
-          "tags": ["adversity", "opportunity", "hope"]
-        },
-        {
-          "id": 43,
-          "quote": "Life is 10% what happens to you and 90% how you react to it.",
-          "author": "Charles R. Swindoll",
-          "tags": ["attitude", "reaction", "perspective"]
-        },
-        {
-          "id": 44,
-          "quote": "Our greatest glory is not in never falling, but in rising every time we fall.",
-          "author": "Oliver Goldsmith",
-          "tags": ["failure", "recovery", "strength"]
-        },
-        {
-          "id": 45,
-          "quote": "Fall seven times and stand up eight.",
-          "author": "Japanese Proverb",
-          "tags": ["tenacity", "grit", "bounce-back"]
-        },
-        {
-          "id": 46,
-          "quote": "Rock bottom became the solid foundation on which I rebuilt my life.",
-          "author": "J.K. Rowling",
-          "tags": ["rebuilding", "struggles", "foundation"]
-        },
-        {
-          "id": 47,
-          "quote": "The oak fought the wind and was broken, the willow bent when it must and survived.",
-          "author": "Robert Jordan",
-          "tags": ["adaptability", "flexibility", "survival"]
-        },
-        {
-          "id": 48,
-          "quote": "Hardships often prepare ordinary people for an extraordinary destiny.",
-          "author": "C.S. Lewis",
-          "tags": ["hardship", "destiny", "purpose"]
-        },
-        {
-          "id": 49,
-          "quote": "Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.",
-          "author": "Kahlil Gibran",
-          "tags": ["suffering", "character", "strength"]
-        },
-        {
-          "id": 50,
-          "quote": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'",
-          "author": "Mary Anne Radmacher",
-          "tags": ["quiet-courage", "trying", "patience"]
-        }
-      ]
-    },
-    {
-      "category_name": "Leadership & Impact",
-      "quotes": [
-        {
-          "id": 51,
-          "quote": "Be the change that you wish to see in the world.",
-          "author": "Mahatma Gandhi",
-          "tags": ["example", "impact", "world"]
-        },
-        {
-          "id": 52,
-          "quote": "A leader is one who knows the way, goes the way, and shows the way.",
-          "author": "John C. Maxwell",
-          "tags": ["direction", "example", "guidance"]
-        },
-        {
-          "id": 53,
-          "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
-          "author": "Ralph Waldo Emerson",
-          "tags": ["trailblazing", "initiative", "originality"]
-        },
-        {
-          "id": 54,
-          "quote": "To handle yourself, use your head; to handle others, use your heart.",
-          "author": "Eleanor Roosevelt",
-          "tags": ["empathy", "self-control", "management"]
-        },
-        {
-          "id": 55,
-          "quote": "Leadership is not about a title or a designation. It's about impact, influence and inspiration.",
-          "author": "Robin S. Sharma",
-          "tags": ["influence", "inspiration", "action"]
-        },
-        {
-          "id": 56,
-          "quote": "The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things.",
-          "author": "Ronald Reagan",
-          "tags": ["empowerment", "people", "delegation"]
-        },
-        {
-          "id": 57,
-          "quote": "Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.",
-          "author": "Margaret Mead",
-          "tags": ["community", "change", "commitment"]
-        },
-        {
-          "id": 58,
-          "quote": "Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others.",
-          "author": "Jack Welch",
-          "tags": ["growth", "mentorship", "success"]
-        },
-        {
-          "id": 59,
-          "quote": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
-          "author": "John Quincy Adams",
-          "tags": ["inspiration", "growth", "purpose"]
-        },
-        {
-          "id": 60,
-          "quote": "Management is doing things right; leadership is doing the right things.",
-          "author": "Peter Drucker",
-          "tags": ["vision", "integrity", "management"]
-        }
-      ]
-    },
-    {
-      "category_name": "Mindfulness & Peace",
-      "quotes": [
-        {
-          "id": 61,
-          "quote": "Peace comes from within. Do not seek it without.",
-          "author": "Buddha",
-          "tags": ["peace", "internal", "seeking"]
-        },
-        {
-          "id": 62,
-          "quote": "Realize deeply that the present moment is all you have. Make the NOW the primary focus of your life.",
-          "author": "Eckhart Tolle",
-          "tags": ["present-moment", "now", "awareness"]
-        },
-        {
-          "id": 63,
-          "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-          "author": "Buddha",
-          "tags": ["focus", "past", "future"]
-        },
-        {
-          "id": 64,
-          "quote": "Quiet the mind, and the soul will speak.",
-          "author": "Ma Jaya Sati Bhagavati",
-          "tags": ["stillness", "soul", "listening"]
-        },
-        {
-          "id": 65,
-          "quote": "Smile, breathe and go slowly.",
-          "author": "Thich Nhat Hanh",
-          "tags": ["simplicity", "breath", "patience"]
-        },
-        {
-          "id": 66,
-          "quote": "Surrender to what is. Let go of what was. Have faith in what will be.",
-          "author": "Sonia Ricotti",
-          "tags": ["surrender", "letting-go", "faith"]
-        },
-        {
-          "id": 67,
-          "quote": "Tension is who you think you should be. Relaxation is who you are.",
-          "author": "Chinese Proverb",
-          "tags": ["authenticity", "tension", "relaxation"]
-        },
-        {
-          "id": 68,
-          "quote": "The primary cause of unhappiness is never the situation but your thoughts about it.",
-          "author": "Eckhart Tolle",
-          "tags": ["unhappiness", "perception", "mind"]
-        },
-        {
-          "id": 69,
-          "quote": "In today's rush, we all think too much, seek too much, want too much and forget about the joy of just Being.",
-          "author": "Eckhart Tolle",
-          "tags": ["being", "slowing-down", "contentment"]
-        },
-        {
-          "id": 70,
-          "quote": "Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.",
-          "author": "Thich Nhat Hanh",
-          "tags": ["emotions", "breathing", "anchor"]
+          "id": 405,
+          "name": "Minimalist Slip-On Espadrilles",
+          "price": 38.00,
+          "discount_price": 28.00,
+          "description": "Casual jute-sole espadrilles with lightweight canvas uppers, perfect for warm weather relaxation.",
+          "image": "c5.webp",
+          "gallery": ["c5.webp"],
+          "tags": ["summer", "casual", "slip-on"],
+          "likes": 18,
+          "inStock": true
         }
       ]
     }
