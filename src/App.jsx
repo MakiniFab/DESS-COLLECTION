@@ -1,13 +1,13 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   ShoppingBag, Search, MessageSquare, PhoneCall, 
   ShoppingCart, Plus, Minus, Trash2, X, Check, Heart, 
-  ChevronLeft, ChevronRight, Info, MapPin, Mail
+  ChevronLeft, ChevronRight, Info, MapPin, Mail, ArrowUp
 } from 'lucide-react';
 import inventoryData from './data/quotes.json';
 import './App.css';
 
-const SELLER_WHATSAPP = '254704579252';
+const SELLER_WHATSAPP = '254746603149';
 
 const getAssetUrl = (imageName) => {
   try {
@@ -23,6 +23,7 @@ export default function App() {
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [addedItemToast, setAddedItemToast] = useState(null);
+  const [showBackToTop, setShowBackToTop] = useState(false);
   
   // Likes tracking state
   const [likedItems, setLikedItems] = useState({});
@@ -31,6 +32,27 @@ export default function App() {
   // Product Detail Modal State
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Track scroll position to show/hide "Back to Top" button
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowBackToTop(true);
+      } else {
+        setShowBackToTop(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
 
   // Extract all products into a flat array
   const allProducts = useMemo(() => {
@@ -118,20 +140,21 @@ export default function App() {
     }, 0);
   }, [cart]);
 
-  // Contact Seller for Single Product or Cart
+  // Contact Seller for Single Product, Cart, or General Inquiry
   const handleContactSeller = (product = null) => {
     let message = '';
     if (product) {
       const activePrice = product.discount_price || product.price;
       message = `Hello! I want to inquire about *${product.name}* (ID: #${product.id}) priced at Ksh ${activePrice.toFixed(2)}.`;
-    } else {
-      if (cart.length === 0) return;
+    } else if (cart.length > 0) {
       message = `Hello! I would like to place an order:\n\n`;
       cart.forEach((item, index) => {
         const price = item.discount_price || item.price;
         message += `${index + 1}. *${item.name}* (Qty: ${item.quantity}) - Ksh ${(price * item.quantity).toFixed(2)}\n`;
       });
       message += `\n*Total Amount:* Ksh ${cartSubtotal.toFixed(2)}`;
+    } else {
+      message = `Hello! I would like to inquire about items in SMARTLABELS THRIFT COLLECTION.`;
     }
 
     const whatsappUrl = `https://wa.me/${SELLER_WHATSAPP}?text=${encodeURIComponent(message)}`;
@@ -150,15 +173,20 @@ export default function App() {
       <header className="store-header">
         <div className="header-content">
           <div className="brand">
-            <ShoppingBag size={22} color="#e11d48" />
-            <h1 className="brand-title">DESS COLLECTION</h1>
+            <div className="brand-icon-wrapper">
+              <ShoppingBag size={22} className="brand-icon" />
+            </div>
+            <h1 className="brand-title">
+              <span>SMARTLABELS</span>
+              <span className="brand-subtitle">THRIFT COLLECTION</span>
+            </h1>
           </div>
 
           <div className="header-actions">
             <button
               className="direct-contact"
               onClick={() => handleContactSeller(null)}
-              title="Contact Direct"
+              title="Contact Seller on WhatsApp"
             >
               <PhoneCall size={16} />
               <span className="contact-label">Contact</span>
@@ -185,7 +213,7 @@ export default function App() {
           <Search size={18} className="search-icon" />
           <input
             type="text"
-            placeholder="Search clothes, tags (#summer), dresses..."
+            placeholder="Search clothes..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="search-input"
@@ -479,6 +507,17 @@ export default function App() {
         </div>
       )}
 
+      {/* BACK TO TOP BUTTON */}
+      {showBackToTop && (
+        <button 
+          className="back-to-top-btn" 
+          onClick={scrollToTop}
+          aria-label="Back to Top"
+        >
+          <ArrowUp size={20} />
+        </button>
+      )}
+
       {/* TOAST CONFIRMATION */}
       {addedItemToast && (
         <div className="toast-notification">
@@ -489,7 +528,7 @@ export default function App() {
       {/* STORE FOOTER */}
       <footer className="store-footer">
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} DESS COLLECTION. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SMARTLABELS. All rights reserved.</p>
           <p className="developer-credit">
             Designed by <strong>FAB Software Solutions</strong>
           </p>
