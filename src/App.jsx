@@ -34,20 +34,63 @@ const shuffleArray = (array) => {
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
-  const [cart, setCart] = useState([]);
+
+  // LocalStorage-backed state initialization for Cart
+  const [cart, setCart] = useState(() => {
+    try {
+      const savedCart = localStorage.getItem('dess_cart');
+      return savedCart ? JSON.parse(savedCart) : [];
+    } catch (e) {
+      console.error('Failed to parse cart from localStorage:', e);
+      return [];
+    }
+  });
+
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [addedItemToast, setAddedItemToast] = useState(null);
   const [copiedToast, setCopiedToast] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
-  
-  // Likes tracking state
-  const [likedItems, setLikedItems] = useState({});
-  const [likesCounts, setLikesCounts] = useState({});
+
+  // LocalStorage-backed state initialization for Likes
+  const [likedItems, setLikedItems] = useState(() => {
+    try {
+      const savedLikes = localStorage.getItem('dess_liked_items');
+      return savedLikes ? JSON.parse(savedLikes) : {};
+    } catch (e) {
+      console.error('Failed to parse likes from localStorage:', e);
+      return {};
+    }
+  });
+
+  const [likesCounts, setLikesCounts] = useState(() => {
+    try {
+      const savedCounts = localStorage.getItem('dess_likes_counts');
+      return savedCounts ? JSON.parse(savedCounts) : {};
+    } catch (e) {
+      console.error('Failed to parse likes counts from localStorage:', e);
+      return {};
+    }
+  });
 
   // Product Detail Modal State
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Sync Cart to LocalStorage
+  useEffect(() => {
+    localStorage.setItem('dess_cart', JSON.stringify(cart));
+  }, [cart]);
+
+  // Sync Liked Items to LocalStorage
+  useEffect(() => {
+    localStorage.setItem('dess_liked_items', JSON.stringify(likedItems));
+  }, [likedItems]);
+
+  // Sync Likes Counts to LocalStorage
+  useEffect(() => {
+    localStorage.setItem('dess_likes_counts', JSON.stringify(likesCounts));
+  }, [likesCounts]);
 
   // Track scroll position to show/hide "Back to Top" button
   useEffect(() => {
@@ -109,13 +152,16 @@ export default function App() {
   // Toggle Likes
   const toggleLike = (productId, initialLikes, e) => {
     if (e) e.stopPropagation();
+    
     setLikedItems((prev) => {
       const isLiked = !prev[productId];
       const currentCount = likesCounts[productId] ?? initialLikes;
+      
       setLikesCounts((prevCounts) => ({
         ...prevCounts,
         [productId]: isLiked ? currentCount + 1 : currentCount - 1,
       }));
+      
       return { ...prev, [productId]: isLiked };
     });
   };
