@@ -4,264 +4,889 @@
   "total_categories": 3,
   "categories": [
     {
-      "category_name": "Dresses",
+      "category_name": "Outerwear / Jackets",
       "items": [
         {
           "id": 101,
-          "name": "Floral Summer Maxi Dress",
-          "price": 45.00,
-          "discount_price": 35.00,
-          "description": "Lightweight breathable cotton dress perfect for sunny days. Features adjustable straps and a flowy silhouette.",
-          "image": "d1.webp",
-          "gallery": ["d1.webp"],
-          "tags": ["summer", "floral", "cotton"],
-          "likes": 24,
+          "name": "Digital Desert Camouflage Tactical Jacket",
+          "price": 800,
+          "description": "Durable ripstop cotton blend tactical uniform jacket featuring a multi-color digital desert pixelated camouflage pattern in tan, brown, beige, and dark navy tones. Built with a structured point collar, a concealed button-down front placket, dual utility flap chest pockets, buttoned shoulder epaulets, and adjustable hook-and-loop wrist cuffs.",
+          "image": "ct1.jpeg",
+          "gallery": ["ct1.jpeg"],
+          "tags": ["camo", "camouflage", "digital desert", "tactical jacket", "military style", "outerwear", "utility shirt", "ripstop", "workwear"],
           "inStock": true
         },
         {
           "id": 102,
-          "name": "Elegance Evening Gown",
-          "price": 120.00,
-          "discount_price": 95.00,
-          "description": "Silk finish slim-fit evening dress with formal neckline and subtle side slit for modern elegance.",
-          "image": "d2.webp",
-          "gallery": ["d2.webp"],
-          "tags": ["formal", "silk", "evening"],
-          "likes": 58,
+          "name": "Classic Woodland Camouflage Tactical Jacket",
+          "price": 800,
+          "description": "Heavy-duty tactical field jacket featuring a traditional woodland camouflage pattern with organic shapes in forest green, olive, dark brown, and black. Designed with a convertible zip-up stand collar, a secure snap-button storm flap closure, dual zippered chest pockets, and buttoned wrist cuffs. Features an insignia patch on the upper right sleeve.",
+          "image": "ct2.jpeg",
+          "gallery": ["ct2.jpeg"],
+          "tags": ["camo", "camouflage", "woodland camo", "tactical jacket", "military style", "outerwear", "field jacket", "utility jacket", "workwear"],
           "inStock": true
         },
         {
           "id": 103,
-          "name": "Boho Chic Midi Sundress",
-          "price": 50.00,
-          "discount_price": 40.00,
-          "description": "Relaxed Bohemian style midi dress with tiered ruffle skirts and elastic smocked bust.",
-          "image": "d3.webp",
-          "gallery": ["d3.webp"],
-          "tags": ["boho", "casual", "midi"],
-          "likes": 39,
+          "name": "Abstract Maritime Camouflage Tactical Jacket",
+          "price": 800,
+          "description": "Rugged utility field jacket featuring a unique multi-colored abstract camouflage pattern incorporating deep navy blue, chocolate brown, olive green, and tan tones. Built with a full-length zippered front closure hidden behind a buttoned storm flap, a zip-up stand collar, two horizontal zippered chest pockets, and adjustable snap-button wrist cuffs.",
+          "image": "ct3.jpeg",
+          "gallery": ["ct3.jpeg"],
+          "tags": ["camo", "camouflage", "abstract camo", "tactical jacket", "military style", "outerwear", "utility outerwear", "navy and brown", "workwear"],
           "inStock": true
         },
         {
           "id": 104,
-          "name": "Classic Satin Slip Dress",
-          "price": 68.00,
-          "discount_price": null,
-          "description": "Minimalist bias-cut satin dress with delicate spaghetti straps that drapes effortlessly over curves.",
-          "image": "d4.webp",
-          "gallery": ["d4.webp"],
-          "tags": ["satin", "slip", "minimalist"],
-          "likes": 47,
+          "name": "High-Contrast Woodland Camouflage Tactical Jacket",
+          "price": 800,
+          "description": "Lightweight tactical utility jacket styled with an organic high-contrast woodland camouflage pattern consisting of moss green, olive, dark brown, off-white, and black shapes. Designed with a convertible zip-up stand collar, a central zippered closure under a buttoned storm placket, dual horizontal zippered chest pockets, and classic buttoned shoulder epaulets.",
+          "image": "ct4.jpeg",
+          "gallery": ["ct4.jpeg"],
+          "tags": ["camo", "camouflage", "woodland camo", "tactical jacket", "military style", "outerwear", "utility outerwear", "green camo", "field jacket"],
           "inStock": true
         },
         {
           "id": 105,
-          "name": "A-Line Wrap Bodycon Dress",
-          "price": 55.00,
-          "discount_price": 42.00,
-          "description": "Flattering V-neck wrap dress with side tie waist, perfect for both day-to-night transitions.",
-          "image": "momom.webp",
-          "gallery": ["momom.webp"],
-          "tags": ["wrap", "aline", "party"],
-          "likes": 31,
+          "name": "Civil Aviation Insignia Camouflage Uniform Jacket",
+          "price": 800,
+          "description": "Authentic tactical uniform shirt-jacket featuring a classic woodland camouflage print with shades of muted green, brown, tan, and navy blue. Decorated with comprehensive embroidery and tactical patches, including blue shoulder epaulets with gold bars, gold chevron rank patches on both sleeves, 'CIVIL AVIATION' and 'S·C·C·A' name tapes, and detailed aviation crests over dual chest utility flap pockets.",
+          "image": "ct5.jpeg",
+          "gallery": ["ct5.jpeg"],
+          "tags": ["camo", "camouflage", "tactical jacket", "military style", "civil aviation", "patches", "uniform shirt", "outerwear", "insignia"],
           "inStock": true
         }
       ]
     },
     {
-      "category_name": "Jackets & Coats",
+      "category_name": "Unisex Sweatpants",
       "items": [
         {
           "id": 201,
-          "name": "Classic Vintage Denim Jacket",
-          "price": 65.00,
-          "discount_price": 50.00,
-          "description": "Timeless mid-wash denim jacket featuring sturdy brass buttons, chest flap pockets, and reinforced stitching.",
-          "image": "e1.webp",
-          "gallery": ["e1.webp"],
-          "tags": ["denim", "vintage", "casual"],
-          "likes": 42,
+          "name": "Chrome Hearts Horseshoe Logo Sweatpants",
+          "price": 700,
+          "description": "Premium heavyweight cotton fleece jogger sweatpants in black. Features the iconic Chrome Hearts gothic circular horseshoe logo embroidered on the upper left thigh, an elasticated waistband with adjustable drawstrings, two side pockets, and snug ribbed ankle cuffs.",
+          "image": "sp1.jpeg",
+          "gallery": [
+            "sp1.jpeg"
+          ],
+          "tags": ["chrome hearts", "sweatpants", "joggers", "black", "fleece", "heavyweight cotton", "streetwear", "luxury", "gothic logo"],
           "inStock": true
         },
         {
           "id": 202,
-          "name": "Insulated Puffer Winter Coat",
-          "price": 110.00,
-          "discount_price": 85.00,
-          "description": "Quilted thermal outerwear designed to trap heat in cold weather. Features a windproof outer shell and detachable hood.",
-          "image": "e2.webp",
-          "gallery": ["e2.webp"],
-          "tags": ["winter", "puffer", "warm"],
-          "likes": 78,
+          "name": "Chrome Hearts Horseshoe Logo Sweatpants",
+          "price": 700,
+          "description": "Premium heavyweight cotton fleece jogger sweatpants in black. Features the iconic Chrome Hearts gothic circular horseshoe logo embroidered on the upper left thigh, an elasticated waistband with adjustable drawstrings, two side pockets, and snug ribbed ankle cuffs.",
+          "image": "sp1b.jpeg",
+          "gallery": [
+            "sp1b.jpeg"
+          ],
+          "tags": ["chrome hearts", "sweatpants", "joggers", "black", "fleece", "heavyweight cotton", "streetwear", "luxury", "gothic logo"],
           "inStock": true
         },
         {
           "id": 203,
-          "name": "Sleek Faux Leather Biker Jacket",
-          "price": 88.00,
-          "discount_price": 70.00,
-          "description": "Modern asymmetrical zip biker jacket crafted from premium faux leather with metallic hardware and lapel snaps.",
-          "image": "e3.webp",
-          "gallery": ["e3.webp"],
-          "tags": ["leather", "biker", "edgy"],
-          "likes": 95,
+          "name": "Sportiv Graphic Athletic Sweatpants",
+          "price": 700,
+          "description": "Premium black performance fleece jogger sweatpants. Features an elasticated comfort waistband, zippered side pockets for secure storage, and snug ribbed ankle cuffs. Detailed with a vertical white 'Sportiv SPORTS FASHION' graphic print down the upper left thigh.",
+          "image": "sp3.jpeg",
+          "gallery": [
+            "sp3.jpeg"
+          ],
+          "tags": ["black", "sportiv", "sweatpants", "joggers", "athletic wear", "sportswear", "zipper pockets", "graphic print", "fleece"],
           "inStock": true
         },
         {
           "id": 204,
-          "name": "Tailored Wool Blend Trench Coat",
-          "price": 135.00,
-          "discount_price": null,
-          "description": "Elegant double-breasted long trench coat with a waist belt, deep side pockets, and structured shoulder pads.",
-          "image": "e4.webp",
-          "gallery": ["e4.webp"],
-          "tags": ["formal", "wool", "trench"],
-          "likes": 34,
+          "name": "Grey Fleece Jogger Sweatpants",
+          "price": 700,
+          "description": "Premium heather grey fleece jogger sweatpants. Features an elasticated high waistband, structured side seaming, side pockets, and elasticated ankle cuffs. Detailed with a subtle, tonal triangular geometric patch on the upper left thigh for a minimal streetwear aesthetic.",
+          "image": "sp4.jpeg",
+          "gallery": [
+            "sp4.jpeg"
+          ],
+          "tags": ["grey", "fleece", "sweatpants", "joggers", "streetwear", "loungewear", "athleisure", "minimalist", "elastic waist"],
           "inStock": true
         },
         {
           "id": 205,
-          "name": "Lightweight Waterproof Windbreaker",
-          "price": 45.00,
-          "discount_price": 32.00,
-          "description": "Packable rain jacket with a zip-up front, breathable mesh lining, and adjustable drawstring hem.",
-          "image": "e5.webp",
-          "gallery": ["e5.webp"],
-          "tags": ["rainwear", "lightweight", "outdoor"],
-          "likes": 21,
+          "name": "Armani Exchange Chinese New Year Joggers",
+          "price": 700,
+          "description": "Premium black cotton blend fleece jogger sweatpants. Features a comfortable elasticated waistband with adjustable drawstring cords, functional side slit pockets, and tapered legs with snug ribbed ankle cuffs. Highlights a prominent, textured metallic gold embroidered dragon or tiger graphic patch on the left thigh celebrating Chinese New Year.",
+          "image": "sp5.jpeg",
+          "gallery": [
+            "sp5.jpeg"
+          ],
+          "tags": ["armani exchange", "ax", "sweatpants", "joggers", "black", "gold embroidery", "chinese new year", "cny", "streetwear", "luxury athleisure"],
+          "inStock": true
+        },
+        {
+          "id": 206,
+          "name": "Polo Ralph Lauren Bear Fleece Joggers",
+          "price": 700,
+          "description": "Premium slate blue-grey cotton blend fleece jogger sweatpants. Crafted with an elasticated waistband, adjustable matching drawstrings, side slit pockets, and gathered elastic ankle cuffs. Features a small iconic embroidered Polo Bear logo on the upper left thigh.",
+          "image": "sp6.jpeg",
+          "gallery": [
+            "sp6.jpeg"
+          ],
+          "tags": ["polo ralph lauren", "polo bear", "sweatpants", "joggers", "grey", "blue grey", "fleece", "athleisure", "streetwear", "embroidery"],
+          "inStock": true
+        },
+        {
+          "id": 207,
+          "name": "Smart Block Side Stripe Graphic Joggers",
+          "price": 700,
+          "description": "Athletic grey cotton-blend fleece jogger sweatpants. Features an elasticated waistband with an adjustable cream drawstring, side pockets, and gathered elastic ankles. Styled with contrasting color-block side panels containing a white section at the upper thigh and a navy blue section running down the outer leg, detailed with a bold vertical 'SMART' graphic print.",
+          "image": "sp7.jpeg",
+          "gallery": [
+            "sp7.jpeg"
+          ],
+          "tags": ["grey", "sweatpants", "joggers", "color block", "side stripe", "graphic print", "smart", "navy blue", "athletic wear", "fleece"],
+          "inStock": true
+        },
+        {
+          "id": 208,
+          "name": "Thom Browne Style Striped Varsity Joggers",
+          "price": 700,
+          "description": "Sporty off-white cotton fleece jogger sweatpants. Features a contrasting navy blue elasticated waistband with adjustable matching drawstrings, side slip pockets, and full-length navy blue side panels. Styled with a four-stripe collegiate graphic across the left thigh and a small stitched rectangular patch near the left ankle cuff.",
+          "image": "sp8.jpeg",
+          "gallery": [
+            "sp8.jpeg"
+          ],
+          "tags": ["white", "off-white", "navy blue", "sweatpants", "joggers", "striped", "varsity style", "college stripes", "fleece", "sportswear"],
+          "inStock": true
+        },
+        {
+          "id": 209,
+          "name": "Argyle Plaid Knit Lounge Joggers",
+          "price": 700,
+          "description": "Eye-catching lounge jogger pants featuring an all-over traditional argyle diamond plaid pattern in emerald green, navy blue, and white. Designed with an elasticated waistband, a thick contrasting green drawstring ribbon, convenient side pockets, and gathered elastic ankle cuffs.",
+          "image": "sp9.jpeg",
+          "gallery": [
+            "sp9.jpeg"
+          ],
+          "tags": ["argyle", "plaid", "diamond pattern", "green", "navy blue", "sweatpants", "joggers", "loungewear", "pajama pants", "knit wear"],
+          "inStock": true
+        },
+        {
+          "id": 210,
+          "name": "BJOZ Paisley Side Panel Joggers",
+          "price": 700,
+          "description": "Premium black streetwear fleece jogger sweatpants. Designed with a comfortable elasticated waistband with adjustable matching drawstrings, side slip pockets, and gathered elastic ankle cuffs. Highlighted by detailed white paisley bandana-style print panels running down both outer side seams and a small 'BJOZ' text logo patch on the left thigh.",
+          "image": "sp10.jpeg",
+          "gallery": [
+            "sp10.jpeg"
+          ],
+          "tags": ["black", "paisley", "bandana print", "bjoz", "sweatpants", "joggers", "streetwear", "graphic panels", "fleece", "side stripe"],
+          "inStock": true
+        },
+        {
+          "id": 211,
+          "name": "Graphic Patch Heather Grey Joggers",
+          "price": 700,
+          "description": "Casual heather grey cotton blend fleece jogger sweatpants. Built with a gathered elastic waistband, matching adjustable drawstrings, side slit pockets, and comfortable ribbed ankle cuffs. Styled with a small brown rectangular graphic patch on the left thigh and brown vertical text print running along the outer side seam of the left leg.",
+          "image": "sp11.jpeg",
+          "gallery": [
+            "sp11.jpeg"
+          ],
+          "tags": ["grey", "heather grey", "sweatpants", "joggers", "fleece", "graphic patch", "text print", "streetwear", "loungewear", "athleisure"],
+          "inStock": true
+        },
+        {
+          "id": 212,
+          "name": "Miguosf Embossed Text Fleece Joggers",
+          "price": 700,
+          "description": "Premium dark slate grey cotton blend fleece jogger sweatpants. Built with an elasticated waistband featuring a contrasting white adjustable drawstring, functional side pockets, and snug ribbed ankle cuffs. Finished with a subtle, vertical tonal embossed 'MIGUOSF' text branding down the upper left thigh.",
+          "image": "sp12.jpeg",
+          "gallery": [
+            "sp12.jpeg"
+          ],
+          "tags": ["slate grey", "dark grey", "miguosf", "sweatpants", "joggers", "fleece", "embossed text", "minimalist", "streetwear", "athleisure"],
+          "inStock": true
+        },
+        {
+          "id": 213,
+          "name": "Textured Corduroy Comfort Joggers",
+          "price": 700,
+          "description": "Premium dark chocolate brown or charcoal jogger sweatpants crafted from a plush, vertically textured corduroy fabric blend. Designed with a supportive elasticated waistband, a contrasting thick cream adjustable drawstring, zippered side pockets for secure utility storage, and cozy gathered elastic ankle cuffs.",
+          "image": "sp13.jpeg",
+          "gallery": [
+            "sp13.jpeg"
+          ],
+          "tags": ["brown", "charcoal", "corduroy", "textured fabric", "sweatpants", "joggers", "zipper pockets", "streetwear", "loungewear", "athleisure"],
+          "inStock": true
+        },
+        {
+          "id": 214,
+          "name": "Mustard Yellow Zipper Pocket Joggers",
+          "price": 700,
+          "description": "Vibrant mustard yellow cotton blend fleece jogger sweatpants. Styled with an elasticated waistband, a contrasting navy blue patterned braided drawstring, vertical zippered side pockets for secure storage, and gathered elastic ankle cuffs.",
+          "image": "sp14.jpeg",
+          "gallery": [
+            "sp14.jpeg"
+          ],
+          "tags": ["yellow", "mustard yellow", "sweatpants", "joggers", "fleece", "zipper pockets", "braided drawstring", "bright streetwear", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 215,
+          "name": "Classic Brown Fleece Fitted Joggers",
+          "price": 700,
+          "description": "Minimalist chocolate brown cotton blend fleece jogger sweatpants. Tailored in a structured, slim-fit silhouette with an elasticated waistband, vertical welt side pockets, and matching ribbed ankle cuffs for a clean finish.",
+          "image": "sp15.jpeg",
+          "gallery": [
+            "sp15.jpeg"
+          ],
+          "tags": ["brown", "chocolate brown", "sweatpants", "joggers", "fleece", "minimalist", "earthy tones", "loungewear", "basic streetwear"],
+          "inStock": true
+        },
+        {
+          "id": 216,
+          "name": "Paneled White Off-White Fleece Joggers",
+          "price": 700,
+          "description": "Premium off-white cotton fleece jogger sweatpants. Built with an elasticated comfort waistband featuring an adjustable woven drawstring with dark metal aglets, functional side slit pockets, and gathered elastic ankle cuffs. Finished with curved structural seam paneling across the front legs and a small, minimal woven label tag on the upper left thigh.",
+          "image": "sp16.jpeg",
+          "gallery": ["sp16.jpeg"],
+          "tags": ["white", "off-white", "sweatpants", "joggers", "fleece", "paneled", "minimalist", "streetwear", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 217,
+          "name": "YUE BU YUE Graphic Black Joggers",
+          "price": 700,
+          "description": "Sleek black cotton blend fleece jogger sweatpants. Designed with an elasticated waistband, matching adjustable drawstring cords, functional curved side pockets, and flat-knit ribbed ankle cuffs. Highlights a bold, vertical white 'YUE BU YUE' graphic print running up the lower left leg.",
+          "image": "sp17.jpeg",
+          "gallery": ["sp17.jpeg"],
+          "tags": ["black", "yue bu yue", "sweatpants", "joggers", "fleece", "graphic print", "streetwear", "athleisure", "letter print"],
+          "inStock": true
+        },
+        {
+          "id": 218,
+          "name": "Corduroy Side Stripe Athletic Joggers",
+          "price": 700,
+          "description": "Sporty black textured corduroy jogger pants. Designed with an elasticated waistband, slant side pockets, and gathered elastic ankle cuffs. Features prominent white and teal-green racing stripes running down both outer side seams, accented with a vibrant green rectangular graphic patch on the left thigh.",
+          "image": "sp18.jpeg",
+          "gallery": ["sp18.jpeg"],
+          "tags": ["black", "corduroy", "side stripe", "racing stripe", "teal green", "sweatpants", "joggers", "streetwear", "retro style", "graphic patch"],
+          "inStock": true
+        },
+        {
+          "id": 219,
+          "name": "Nike Pro Therma-FIT Performance Pants",
+          "price": 700,
+          "description": "High-performance dark grey athletic pants designed for training. Crafted with a technical Therma-FIT fleece fabric blend, an elasticated waistband with engineered interior Nike branding, side slit pockets, and tapered lower legs with zippered ankle closures. Detailed with a reflective Nike Swoosh on the left thigh and 'NIKE PRO' vertical branding on the lower right ankle.",
+          "image": "sp19.jpeg",
+          "gallery": ["sp19.jpeg"],
+          "tags": ["nike", "nike pro", "therma-fit", "grey", "dark grey", "athletic pants", "training pants", "zipper ankles", "sportswear", "performance"],
+          "inStock": true
+        },
+        {
+          "id": 220,
+          "name": "Chsuncae CNY Block Print Joggers",
+          "price": 700,
+          "description": "Bold black fleece streetwear jogger sweatpants. Built with an elasticated waistband, side pockets, and gathered elastic ankle cuffs. Features an asymmetrical graphic layout with a white 'Chsuncae' logo print on the upper right thigh, contrasted by large white 'CNY' block lettering and dual horizontal varsity stripes wrapping around the left knee.",
+          "image": "sp20.jpeg",
+          "gallery": ["sp20.jpeg"],
+          "tags": ["black", "chsuncae", "cny", "sweatpants", "joggers", "graphic print", "varsity stripes", "streetwear", "fleece", "asymmetric style"],
+          "inStock": true
+        },
+        {
+          "id": 221,
+          "name": "Paneled Slate Blue Fleece Joggers",
+          "price": 700,
+          "description": "Premium slate blue cotton blend fleece jogger sweatpants. Crafted with an elasticated waistband, thin matching adjustable drawstrings, and flat-knit ribbed ankle cuffs. Featuring curved structural seam paneling along the sides, vertical welt pockets, and a tiny minimal tan leather-style label accent on the upper left hip.",
+          "image": "sp21.jpeg",
+          "gallery": ["sp21.jpeg"],
+          "tags": ["blue", "slate blue", "sweatpants", "joggers", "fleece", "paneled", "minimalist", "loungewear", "athleisure"],
+          "inStock": true
+        },
+        {
+          "id": 222,
+          "name": "Anta Embroidered Logo Black Joggers",
+          "price": 700,
+          "description": "Classic black performance fleece jogger sweatpants. Featuring a supportive elasticated waistband, practical side slip pockets, and tapered ankles finished with flat-knit ribbed cuffs. Detailed with a small white embroidered Anta logo on the upper left thigh.",
+          "image": "sp22.jpeg",
+          "gallery": ["sp22.jpeg"],
+          "tags": ["black", "anta", "sweatpants", "joggers", "fleece", "sportswear", "athletic pants", "embroidered logo", "activewear"],
+          "inStock": true
+        },
+        {
+          "id": 223,
+          "name": "Abstract Side Stripe Graphic Joggers",
+          "price": 700,
+          "description": "Sporty black cotton blend fleece jogger sweatpants. Designed with an elasticated waistband featuring a wide, graphic-printed black drawstring ribbon with white text details. Built with side pockets and striking striped ribbed ankle cuffs. Highlights wide white stripes with abstract black geometric line prints running down both outer side seams.",
+          "image": "sp23.jpeg",
+          "gallery": ["sp23.jpeg"],
+          "tags": ["black", "sweatpants", "joggers", "side stripe", "graphic print", "printed drawstring", "streetwear", "athleisure", "fleece"],
+          "inStock": true
+        },
+        {
+          "id": 224,
+          "name": "New Sport Zipper Pocket Grey Joggers",
+          "price": 700,
+          "description": "Athletic heather grey melange fleece jogger sweatpants. Features a comfortable elasticated waistband with a round adjustable drawstring cord, side zipper pockets for secure storage, and tapered legs with ribbed ankle cuffs. Accented with subtle white text branding that reads 'NEW SPORT' vertically near the left pocket opening.",
+          "image": "sp24.jpeg",
+          "gallery": ["sp24.jpeg"],
+          "tags": ["grey", "heather grey", "sweatpants", "joggers", "zipper pockets", "athletic wear", "sportswear", "fleece", "new sport"],
+          "inStock": true
+        },
+        {
+          "id": 225,
+          "name": "Color-Block Maroon and Navy Track Joggers",
+          "price": 700,
+          "description": "Sporty fleece track jogger sweatpants styled with an eye-catching color-block design. Features a deep maroon red body contrasted by a navy blue waistband, inner leg panels, and ankle cuffs. Built with an elasticated waist, thick cream adjustable drawstrings, functional side pockets, and gathered ankle cuffs. Detailed with clean white athletic racing stripes running down both outer legs.",
+          "image": "sp25.jpeg",
+          "gallery": ["sp25.jpeg"],
+          "tags": ["maroon", "navy blue", "color block", "side stripe", "racing stripe", "sweatpants", "joggers", "fleece", "track pants", "sportswear"],
+          "inStock": true
+        },
+        {
+          "id": 226,
+          "name": "Side Stripe Heather Grey Joggers",
+          "price": 700,
+          "description": "Casual heather grey cotton blend fleece jogger sweatpants. Designed with an elasticated comfort waistband, relaxed side slip pockets, and gathered elastic ankle cuffs. Finished with contrasting dark navy blue athletic racing stripes running down both outer legs.",
+          "image": "sp26.jpeg",
+          "gallery": ["sp26.jpeg"],
+          "tags": ["grey", "heather grey", "navy blue", "side stripe", "racing stripe", "sweatpants", "joggers", "fleece", "athleisure", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 227,
+          "name": "Solar Energy Striped Track Joggers",
+          "price": 700,
+          "description": "Sporty black fleece jogger sweatpants featuring a multi-colored elasticated waistband. Built with dual adjustable drawstrings in cream and maroon, curved side pockets, and gathered elastic ankle cuffs. Styled with thick white racing stripes along the side seams, a red oval graphic patch on the left thigh, and an engineered waistband that reads 'SOLAR ENERGY'.",
+          "image": "sp27.jpeg",
+          "gallery": ["sp27.jpeg"],
+          "tags": ["black", "solar energy", "sweatpants", "joggers", "side stripe", "racing stripe", "fleece", "sportswear", "track pants", "graphic patch"],
+          "inStock": true
+        },
+        {
+          "id": 228,
+          "name": "Varsity Initial Chenille Patch Yellow Joggers",
+          "price": 700,
+          "description": "Vibrant mustard yellow fleece jogger sweatpants. Built with a supportive elasticated waistband, a thick white flat adjustable drawstring cord, side pockets, and relaxed gathered elastic ankle cuffs. Featuring structured stitched vertical pleat paneling down the front of both legs and a prominent yellow chenille varsity letter 'B' patch sewn onto the upper right thigh pocket area.",
+          "image": "sp28.jpeg",
+          "gallery": ["sp28.jpeg"],
+          "tags": ["yellow", "mustard yellow", "varsity letter", "chenille patch", "sweatpants", "joggers", "fleece", "streetwear", "pleated lines", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 229,
+          "name": "Waffle Knit Paneled Slate Grey Joggers",
+          "price": 700,
+          "description": "Comfortable slate grey-blue loungewear jogger pants crafted from a textured waffle-knit cotton blend. Features an elasticated waistband with a thin adjustable drawstring cord, practical side pockets, and relaxed gathered elastic ankle cuffs. Detailed with subtle structural side panel seams and a small, cream-colored rectangular woven fabric label stitched near the left shin.",
+          "image": "sp29.jpeg",
+          "gallery": ["sp29.jpeg"],
+          "tags": ["grey", "slate grey", "waffle knit", "textured fabric", "sweatpants", "joggers", "loungewear", "paneled seams", "casual wear"],
+          "inStock": true
+        },
+        {
+          "id": 230,
+          "name": "Polka Dot Wide-Leg Lounge Pants",
+          "price": 700,
+          "description": "Cozy dark navy blue fleece lounge pants decorated with an all-over white polka dot pattern. Built with a comfortable, contrasting light grey elasticated waistband, deep side slip pockets, and a relaxed, straight wide-leg cut with open hems.",
+          "image": "sp30.jpeg",
+          "gallery": ["sp30.jpeg"],
+          "tags": ["navy blue", "polka dot", "dots", "lounge pants", "sweatpants", "fleece", "wide leg", "pajama pants", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 231,
+          "name": "Side Slit Pleated Heather Grey Pants",
+          "price": 700,
+          "description": "Casual heather grey cotton blend lounge pants designed with a relaxed straight-leg silhouette. Built with a gathered elasticated waistband, matching thin round drawstrings with metallic aglets, and side slip pockets. Styled with prominent stitched vertical pin-tuck pleat lines down the front center of both legs and stylish side slits at the bottom outer hems.",
+          "image": "sp31.jpeg",
+          "gallery": ["sp31.jpeg"],
+          "tags": ["grey", "heather grey", "lounge pants", "sweatpants", "side slit", "pin tuck", "pleated lines", "straight leg", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 232,
+          "name": "Classic Straight-Leg Heather Grey Sweatpants",
+          "price": 700,
+          "description": "Minimalist heather grey cotton blend lounge sweatpants. Designed with a comfortable elasticated waistband, matching thin adjustable drawstrings, relaxed side slip pockets, and a classic open-hem straight-leg cut for everyday casual comfort.",
+          "image": "sp32.jpeg",
+          "gallery": ["sp32.jpeg"],
+          "tags": ["grey", "heather grey", "sweatpants", "lounge pants", "straight leg", "open hem", "minimalist", "loungewear", "basic wear"],
+          "inStock": true
+        },
+        {
+          "id": 233,
+          "name": "Adjustable Drawcord Hem Light Grey Pants",
+          "price": 700,
+          "description": "Relaxed light heather grey jersey knit lounge pants. Built with a supportive gathered elastic waistband, an adjustable white drawstring cord, and a casual straight-leg silhouette. Features functional toggle drawcords at the bottom open hems, allowing the wearer to cinch the ankles and transition from a wide-leg style to a cinched jogger look.",
+          "image": "sp33.jpeg",
+          "gallery": ["sp33.jpeg"],
+          "tags": ["grey", "light grey", "lounge pants", "sweatpants", "drawcord hem", "cinch waist", "straight leg", "adjustable hem", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 234,
+          "name": "Wide-Leg Charcoal Grey Lounge Pants",
+          "price": 700,
+          "description": "Comfortable charcoal grey melange knit lounge pants designed with a relaxed, roomy wide-leg silhouette. Features a high-rise elasticated waistband, a contrasting thick white adjustable drawstring cord, and classic side slip pockets for daily essentials.",
+          "image": "sp34.jpeg",
+          "gallery": ["sp34.jpeg"],
+          "tags": ["grey", "charcoal grey", "wide leg", "lounge pants", "sweatpants", "melange", "knit wear", "relaxed fit", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 235,
+          "name": "Adjustable Drawcord Hem Black Tactical Pants",
+          "price": 700,
+          "description": "Rugged black cotton-blend technical utility lounge pants. Designed with an elasticated waistband, a thick matching adjustable drawstring cord, side pockets, and a faux-fly stitched front seam. Features subtle vertical stitched panel lines down both sides, a small tonal embossed brand graphic on the left thigh, and toggle drawcords at the bottom open hems to adjust the fit.",
+          "image": "sp35.jpeg",
+          "gallery": ["sp35.jpeg"],
+          "tags": ["black", "tactical pants", "utility pants", "lounge pants", "sweatpants", "drawcord hem", "adjustable hem", "streetwear", "minimalist"],
+          "inStock": true
+        },
+        {
+          "id": 236,
+          "name": "Forest Green Side Stripe Grey Joggers",
+          "price": 700,
+          "description": "Sporty light heather grey cotton blend lounge pants designed with a tapered straight-leg silhouette. Built with an elasticated waistband decorated in a contrasting forest green and white stripe design, side slip pockets, and clean open hems. Finished with matching forest green athletic racing stripes running down both outer legs.",
+          "image": "sp36.jpeg",
+          "gallery": ["sp36.jpeg"],
+          "tags": ["grey", "light grey", "forest green", "side stripe", "racing stripe", "sweatpants", "track pants", "sportswear", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 237,
+          "name": "Adjustable Drawcord Hem Medium Grey Pants",
+          "price": 700,
+          "description": "Casual medium heather grey fleece lounge pants. Crafted with a thick gathered elasticated waistband, matching thin round drawstrings, and deep side slip pockets. Features an open-hem straight-leg cut equipped with adjustable elastic toggle drawcords at the bottom cuffs for customizable styling.",
+          "image": "sp37.jpeg",
+          "gallery": ["sp37.jpeg"],
+          "tags": ["grey", "heather grey", "lounge pants", "sweatpants", "drawcord hem", "adjustable cuffs", "straight leg", "fleece", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 238,
+          "name": "Adjustable Drawcord Hem Lavender Lounge Pants",
+          "price": 700,
+          "description": "Relaxed lavender purple cotton blend fleece lounge pants. Built with a supportive gathered elastic waistband, an adjustable white drawstring cord, and a roomy straight-leg silhouette. Finished with dark blue toggle drawcords at the bottom open hems, allowing for quick adjustments from a wide-leg opening to a cinched ankle style.",
+          "image": "sp38.jpeg",
+          "gallery": ["sp38.jpeg"],
+          "tags": ["purple", "lavender", "lounge pants", "sweatpants", "drawcord hem", "adjustable cuffs", "straight leg", "fleece", "pastel streetwear"],
+          "inStock": true
+        },
+        {
+          "id": 239,
+          "name": "Nike Graphic Side Ribbon Black Joggers",
+          "price": 700,
+          "description": "Sporty black fleece athletic jogger pants. Designed with an elasticated waistband, slant side pockets, and tapered lower legs with clean open hems. Highlights repeating white 'NIKE' text graphics printed along tape ribbons running down both outer side seams, finished with a classic Nike Futura logo print on the upper left thigh.",
+          "image": "sp39.jpeg",
+          "gallery": ["sp39.jpeg"],
+          "tags": ["black", "nike", "sweatpants", "joggers", "side stripe", "repeating logo", "fleece", "sportswear", "track pants", "graphic print"],
+          "inStock": true
+        },
+        {
+          "id": 240,
+          "name": "Lining Zipper Pocket Training Pants",
+          "price": 700,
+          "description": "Premium black performance training pants crafted from a smooth athletic knit fabric. Features a secure elasticated waistband with adjustable matching drawstrings, vertical zippered side pockets with pull tabs for secure storage, and a relaxed straight-leg cut with open hems. Detailed with a tonal printed Lining brand logo on the upper left thigh.",
+          "image": "sp40.jpeg",
+          "gallery": ["sp40.jpeg"],
+          "tags": ["black", "lining", "training pants", "athletic pants", "track pants", "zipper pockets", "sportswear", "activewear", "straight leg"],
+          "inStock": true
+        },
+        {
+          "id": 241,
+          "name": "Three-Stripe Heather Grey Track Pants",
+          "price": 700,
+          "description": "Sporty heather grey cotton blend fleece track pants. Features a thick gathered elasticated waistband, matching thin adjustable drawstrings, and relaxed side slip pockets. Styled with a straight-leg silhouette accented by three classic navy blue athletic racing stripes running down both outer side seams and subtle zippered details at the bottom outer hems.",
+          "image": "sp41.jpeg",
+          "gallery": ["sp41.jpeg"],
+          "tags": ["grey", "heather grey", "navy blue", "three stripes", "side stripe", "racing stripe", "track pants", "sweatpants", "sportswear", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 242,
+          "name": "White Piping Trim Navy Track Pants",
+          "price": 700,
+          "description": "Classic navy blue performance track pants crafted from a smooth athletic knit blend. Features a comfortable elasticated waistband with internal drawstrings, deep side slit pockets, and a classic straight-leg cut with open hems. Accented with clean, minimalist white contrast piping running down both outer side seams.",
+          "image": "sp42.jpeg",
+          "gallery": ["sp42.jpeg"],
+          "tags": ["navy blue", "dark blue", "white piping", "piping trim", "track pants", "athletic pants", "sportswear", "activewear", "straight leg"],
+          "inStock": true
+        },
+        {
+          "id": 243,
+          "name": "Pleated High-Waist Off-White Wide-Leg Pants",
+          "price": 700,
+          "description": "Elegant off-white soft knit lounge pants tailored with a chic wide-leg silhouette. Built with a supportive high-rise waistband that features a partially elasticated back, a clean front button-and-zipper fly closure, and sophisticated tailored knife pleats framing classic side slip pockets.",
+          "image": "sp43.jpeg",
+          "gallery": ["sp43.jpeg"],
+          "tags": ["white", "off-white", "cream", "wide leg", "pleated pants", "trousers", "lounge pants", "high waist", "tailored look"],
+          "inStock": true
+        },
+        {
+          "id": 244,
+          "name": "YEK Embroidered Grey Knit Lounge Pants",
+          "price": 700,
+          "description": "Casual light grey melange jersey knit lounge pants. Crafted with a ribbed elasticated waistband, matching thin adjustable drawstring cords, and distressed-style raw edge finishing around the side pockets. Features a relaxed straight-leg cut with open hems and a small navy blue 'YEK' brand name text embroidery on the upper left thigh.",
+          "image": "sp44.jpeg",
+          "gallery": ["sp44.jpeg"],
+          "tags": ["grey", "heather grey", "yek", "lounge pants", "sweatpants", "jersey knit", "embroidered text", "open hem", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 245,
+          "name": "Maroon Piping Trim Grey Sweatpants",
+          "price": 700,
+          "description": "Comfortable heather grey cotton blend lounge sweatpants. Designed with a supportive gathered elastic waistband, functional vertical welt side pockets, and a classic straight-leg silhouette with open hems. Accented with minimalist contrast maroon red piping trim running down both outer side seams.",
+          "image": "sp45.jpeg",
+          "gallery": ["sp45.jpeg"],
+          "tags": ["grey", "heather grey", "maroon", "piping trim", "sweatpants", "lounge pants", "straight leg", "open hem", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 246,
+          "name": "Adjustable Drawcord Hem Pink Lounge Pants",
+          "price": 700,
+          "description": "Vibrant bubblegum pink cotton blend fleece lounge pants. Built with a supportive gathered elastic waistband, thin matching adjustable drawstrings, and a casual wide straight-leg cut. Finished with white toggle drawcords at the bottom open hems to adjust from a wide-leg style to a cinched jogger look.",
+          "image": "sp46.jpeg",
+          "gallery": ["sp46.jpeg"],
+          "tags": ["pink", "bubblegum pink", "lounge pants", "sweatpants", "drawcord hem", "adjustable cuffs", "straight leg", "fleece", "pastel streetwear"],
+          "inStock": true
+        },
+        {
+          "id": 247,
+          "name": "Varsity Initial Grey Fleece Lounge Pants",
+          "price": 700,
+          "description": "Cozy heather grey heavy cotton blend fleece lounge pants. Crafted with a thick gathered elasticated waistband, comfortable side slit pockets, and a relaxed wide straight-leg silhouette with open hems. Accented with a small navy blue embroidered varsity letter 'P' patch on the left side of the waistband.",
+          "image": "sp47.jpeg",
+          "gallery": ["sp47.jpeg"],
+          "tags": ["grey", "heather grey", "fleece", "lounge pants", "sweatpants", "wide leg", "varsity letter", "letter patch", "loungewear"],
+          "inStock": true
+        },
+        {
+          "id": 248,
+          "name": "Kangaroo Embroidered Charcoal Grey Joggers",
+          "price": 700,
+          "description": "Casual dark charcoal grey knit lounge sweatpants featuring a tapered straight-leg silhouette. Built with an elasticated waistband, matching dark grey drawstrings, curved side pockets, and clean open hems. Accented with a small, bright blue embroidered kangaroo logo graphic on the upper left thigh.",
+          "image": "sp48.jpeg",
+          "gallery": ["sp48.jpeg"],
+          "tags": ["grey", "charcoal grey", "dark grey", "kangaroo", "embroidered logo", "sweatpants", "lounge pants", "straight leg", "casual wear"],
+          "inStock": true
+        },
+        {
+          "id": 249,
+          "name": "Varsity Initial 'R' Grey Lounge Pants",
+          "price": 700,
+          "description": "Comfortable light heather grey cotton blend fleece lounge sweatpants. Designed with a supportive gathered elastic waistband featuring a contrasting wide cream-colored adjustable flat drawstring ribbon. Crafted with classic side pockets and a relaxed straight wide-leg silhouette, highlighted by a bold embroidered navy and white varsity letter 'R' patch on the left thigh.",
+          "image": "sp49.jpeg",
+          "gallery": ["sp49.jpeg"],
+          "tags": ["grey", "heather grey", "varsity letter", "letter r", "embroidered patch", "lounge pants", "sweatpants", "wide leg", "fleece", "streetwear"],
           "inStock": true
         }
       ]
     },
     {
-      "category_name": "Shirts",
+      "category_name": "Tops & Shirts",
       "items": [
-        {
-          "id": 301,
-          "name": "Classic Oxford Cotton Shirt",
-          "price": 38.00,
-          "discount_price": 28.00,
-          "description": "Tailored fit button-down oxford shirt made from premium breathable cotton. Ideal for smart-casual wear.",
-          "image": "s1.webp",
-          "gallery": ["s1.webp"],
-          "tags": ["cotton", "oxford", "casual"],
-          "likes": 32,
-          "inStock": true
-        },
-        {
-          "id": 302,
-          "name": "Tropical Printed Resort Shirt",
-          "price": 34.00,
-          "discount_price": 25.00,
-          "description": "Short-sleeve Cuban collar shirt featuring a subtle palm leaf print. Lightweight and breezy for warm days.",
-          "image": "s2.webp",
-          "gallery": ["s2.webp"],
-          "tags": ["summer", "floral", "resort"],
-          "likes": 45,
-          "inStock": true
-        },
-        {
-          "id": 303,
-          "name": "Casual Relaxed Linen Shirt",
-          "price": 42.00,
-          "discount_price": null,
-          "description": "100% pure linen casual shirt with a relaxed silhouette and soft hand-feel. Perfect for tropical climates.",
-          "image": "s3.webp",
-          "gallery": ["s3.webp"],
-          "tags": ["linen", "relaxed", "summer"],
-          "likes": 19,
-          "inStock": true
-        },
-        {
-          "id": 304,
-          "name": "Vintage Denim Button-Up",
-          "price": 52.00,
-          "discount_price": 40.00,
-          "description": "Mid-wash chambray denim shirt with double chest pockets and durable brass snap buttons.",
-          "image": "s4.webp",
-          "gallery": ["s4.webp"],
-          "tags": ["denim", "vintage", "casual"],
-          "likes": 61,
-          "inStock": true
-        },
-        {
-          "id": 305,
-          "name": "Slim-Fit Poplin Dress Shirt",
-          "price": 48.00,
-          "discount_price": 36.00,
-          "description": "Crisp poplin weave shirt with spread collar and French cuffs for a modern sharp business look.",
-          "image": "s5.webp",
-          "gallery": ["s5.webp"],
-          "tags": ["formal", "business", "cotton"],
-          "likes": 27,
-          "inStock": true
-        }
-      ]
-    },
-    {
-      "category_name": "Shoes",
-      "items": [
-        {
-          "id": 401,
-          "name": "Classic Canvas Low-Top Sneakers",
-          "price": 55.00,
-          "discount_price": 42.00,
-          "description": "Timeless low-top canvas sneakers with durable rubber soles and cushioned footbeds for all-day comfort.",
-          "image": "c1.webp",
-          "gallery": ["c1.webp"],
-          "tags": ["casual", "canvas", "sneakers"],
-          "likes": 38,
-          "inStock": true
-        },
-        {
-          "id": 402,
-          "name": "Urban Breathable Running Shoes",
-          "price": 75.00,
-          "discount_price": 60.00,
-          "description": "Lightweight mesh athletic shoes engineered for superior shock absorption and maximum airflow.",
-          "image": "c2.webp",
-          "gallery": ["c2.webp"],
-          "tags": ["sport", "running", "breathable"],
-          "likes": 64,
-          "inStock": true
-        },
-        {
-          "id": 403,
-          "name": "Handcrafted Leather Penny Loafers",
-          "price": 110.00,
-          "discount_price": null,
-          "description": "Premium full-grain leather loafers featuring hand-stitched detailing and a polished formal finish.",
-          "image": "c3.webp",
-          "gallery": ["c3.webp"],
-          "tags": ["leather", "formal", "loafers"],
-          "likes": 29,
-          "inStock": true
-        },
-        {
-          "id": 404,
-          "name": "Suede Ankle Chelsea Boots",
-          "price": 95.00,
-          "discount_price": 78.00,
-          "description": "Classic suede leather Chelsea boots with elastic side gores and sturdy non-slip outsoles.",
-          "image": "c4.webp",
-          "gallery": ["c4.webp"],
-          "tags": ["boots", "suede", "casual"],
-          "likes": 51,
-          "inStock": true
-        },
-        {
-          "id": 405,
-          "name": "Minimalist Slip-On Espadrilles",
-          "price": 38.00,
-          "discount_price": 28.00,
-          "description": "Casual jute-sole espadrilles with lightweight canvas uppers, perfect for warm weather relaxation.",
-          "image": "c5.webp",
-          "gallery": ["c5.webp"],
-          "tags": ["summer", "casual", "slip-on"],
-          "likes": 18,
-          "inStock": true
-        }
-      ]
+          {
+            "id": 301,
+            "name": "Levi's Graphic Print Long-Sleeve T-Shirt",
+            "price": 400,
+            "description": "Casual white long-sleeve crewneck t-shirt crafted from lightweight cotton. Features a large, stylized navy blue graphic block printed across the back showcasing an abstract cosmic or nature landscape scene overlaid with bold, white 'Levi's' brand text. Finished with comfortable ribbed knit wrist cuffs and a small signature red tab logo at the bottom left side hem.",
+            "image": "st1.jpeg",
+            "gallery": ["st1.jpeg"],
+            "tags": ["levi's", "levis", "long sleeve", "t-shirt", "white", "navy graphic", "back print", "cotton shirt", "streetwear", "casual wear"],
+            "inStock": true
+          },
+          {
+            "id": 302,
+            "name": "Qiaodan Basketball Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Sporty dark pink or muted red long-sleeve crewneck t-shirt. Features a small white embroidered basketball player silhouette logo on the left chest. The lower half highlights a bold black screen-printed street basketball graphic scene, accented by a white and black 'QIAODAN' typography label near the bottom front hem.",
+            "image": "st2.jpeg",
+            "gallery": ["st2.jpeg"],
+            "tags": ["qiaodan", "long sleeve", "t-shirt", "pink", "red", "basketball graphic", "streetball", "sportswear", "activewear", "embroidered logo"],
+            "inStock": true
+          },
+          {
+            "id": 303,
+            "name": "Huayi Fashion Cap Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Casual maroon red long-sleeve crewneck t-shirt made from comfortable cotton. Features a multi-layered front graphic layout incorporating grey 'HUAYI IN STAMPS' typography, smaller fashion text blocks, and a large central photorealistic image print of a distressed grey baseball cap. Finished with standard ribbed wrist cuffs.",
+            "image": "st3.jpeg",
+            "gallery": ["st3.jpeg"],
+            "tags": ["maroon", "red", "long sleeve", "t-shirt", "huayi", "cap graphic", "typography shirt", "streetwear", "casual outerwear"],
+            "inStock": true
+          },
+          {
+            "id": 304,
+            "name": "Rolf Comic Color-Block Raglan Shirt",
+            "price": 400,
+            "description": "Unique color-block raglan long-sleeve t-shirt with a vintage comic aesthetic. Features a black torso panel accented by a contrasting red crewneck collar, a muted purple right sleeve, and a taupe brown left sleeve. The front showcases a bold graphic print of the retro 'ROLF' comic book cover, featuring cartoon characters and German vintage print text detail.",
+            "image": "st4.jpeg",
+            "gallery": ["st4.jpeg"],
+            "tags": ["black", "raglan", "color block", "long sleeve", "t-shirt", "rolf", "comic graphic", "vintage style", "retro cartoon", "streetwear"],
+            "inStock": true
+          },
+          {
+            "id": 305,
+            "name": "Jean-Michel Basquiat Style Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Artistic black cotton long-sleeve crewneck t-shirt. The front features a large, colorful screen print inspired by Jean-Michel Basquiat's neo-expressionist artwork, showcasing an abstract green dinosaur figure facing a stylized human figure amidst sketchy lines, crowns, and dollar bills. Finished with classic ribbed knit wrist cuffs.",
+            "image": "st5.jpeg",
+            "gallery": ["st5.jpeg"],
+            "tags": ["black", "long sleeve", "t-shirt", "basquiat style", "neo-expressionism", "graphic print", "art shirt", "dinosaur graphic", "streetwear"],
+            "inStock": true
+          },
+          {
+            "id": 306,
+            "name": "Levi's Classic Batwing Logo Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Essential white long-sleeve crewneck t-shirt made from comfortable cotton knit. Designed with a clean, minimalist front featuring a small navy blue Levi's signature batwing logo printed on the left chest. Finished with standard ribbed knit wrist cuffs.",
+            "image": "st6.jpeg",
+            "gallery": ["st6.jpeg"],
+            "tags": ["levi's", "levis", "long sleeve", "t-shirt", "white", "batwing logo", "chest print", "cotton shirt", "minimalist", "casual wear"],
+            "inStock": true
+          },
+          {
+            "id": 307,
+            "name": "Nelycrew Number 8 Athletic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Sporty white long-sleeve crewneck t-shirt featuring a varsity jersey layout on the back. Crafted from comfortable cotton fabric, it showcases a bold navy blue 'NELYCREW' text print arched across the upper shoulders, sitting above a large block number '8' print centered on the back.",
+            "image": "st7.jpeg",
+            "gallery": ["st7.jpeg"],
+            "tags": ["white", "long sleeve", "t-shirt", "nelycrew", "number 8", "varsity style", "jersey print", "back graphic", "sportswear", "athleisure"],
+            "inStock": true
+          },
+          {
+            "id": 308,
+            "name": "Detective Pikachu Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Fun bright yellow long-sleeve crewneck t-shirt crafted from casual cotton fabric. Features a large, photorealistic front graphic print of Detective Pikachu wearing his signature brown deerstalker hat from the Pokémon series. Designed in a relaxed silhouette with comfortable open-hem sleeves.",
+            "image": "st8.jpeg",
+            "gallery": ["st8.jpeg"],
+            "tags": ["yellow", "long sleeve", "t-shirt", "pokemon", "pikachu", "detective pikachu", "graphic shirt", "cartoon print", "pop culture", "casual wear"],
+            "inStock": true
+          },
+          {
+            "id": 309,
+            "name": "Smile Meeting You Ribbed Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Comfortable light blue or heather grey long-sleeve crewneck t-shirt featuring an all-over vertical rib-knit textured pattern. Styled with a minimalist script graphic on the center chest reading 'Smile MEETING YOU' with a small smiley face accent. Finished with contrasting dark blue or dark grey ribbed wrist cuffs.",
+            "image": "st9.jpeg",
+            "gallery": ["st9.jpeg"],
+            "tags": ["light blue", "grey", "long sleeve", "t-shirt", "ribbed knit", "smile", "graphic print", "typography shirt", "minimalist", "loungewear"],
+            "inStock": true
+          },
+          {
+            "id": 310,
+            "name": "Horizontal Striped Long-Sleeve Polo Shirt",
+            "price": 400,
+            "description": "Classic casual long-sleeve polo shirt styled with broad horizontal stripes in contrasting navy blue and teal blue shades. Features a structured navy polo collar, a partial front button placket with dark buttons, a loose-fit body silhouette, and open hem cuffs.",
+            "image": "st10.jpeg",
+            "gallery": ["st10.jpeg"],
+            "tags": ["polo shirt", "long sleeve", "stripes", "horizontal stripes", "navy blue", "teal blue", "casual wear", "classic style", "button neck"],
+            "inStock": true
+          },
+          {
+            "id": 311,
+            "name": "Striped Johnny Collar Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Casual long-sleeve knit shirt featuring alternating bold black and white horizontal stripes. Designed with a structured black fold-over collar over a buttonless V-neck Johnny collar placket. Accented with a small, stylized black letter emblem embroidered on the left chest.",
+            "image": "st11.jpeg",
+            "gallery": ["st11.jpeg"],
+            "tags": ["stripes", "horizontal stripes", "black and white", "long sleeve", "johnny collar", "v-neck collar", "knit shirt", "casual wear", "preppy style"],
+            "inStock": true
+          },
+          {
+            "id": 312,
+            "name": "Layered Plaid Panels Graphic Sweatshirt",
+            "price": 400,
+            "description": "Creative 2-in-1 style layered long-sleeve sweatshirt. Features a light heather grey crewneck body detailed with a bold, black textured brushstroke 'believe' graphic printed across the front chest. Accented by mock collar insert and lower sleeve attachments crafted from a black and white tartan plaid flannel shirt pattern.",
+            "image": "st12.jpeg",
+            "gallery": ["st12.jpeg"],
+            "tags": ["grey", "plaid", "tartan", "layered style", "sweatshirt", "long sleeve", "believe graphic", "brushstroke text", "streetwear", "mock layer"],
+            "inStock": true
+          },
+          {
+            "id": 313,
+            "name": "A&W Great Root Bear Layered Sleeve Shirt",
+            "price": 400,
+            "description": "Retro 2-in-1 style mock-layered long-sleeve t-shirt. Built with a black short-sleeve crewneck body and contrasting bright orange long-sleeve under-layers attached at the armholes. The chest highlights a vintage cartoon print of the A&W Root Beer mascot, Rooty the Great Root Bear, wearing a purple sweater, underscored by arched 'THE GREAT ROOT BEAR' text.",
+            "image": "st13.jpeg",
+            "gallery": ["st13.jpeg"],
+            "tags": ["black", "orange", "layered style", "mock sleeve", "long sleeve", "t-shirt", "a&w root beer", "root bear", "mascot graphic", "vintage cartoon"],
+            "inStock": true
+          },
+          {
+            "id": 314,
+            "name": "We11done Stacked Multicolor Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Premium black heavy cotton long-sleeve crewneck t-shirt. Features a bold front graphic showcase consisting of a vertically stacked repeating layout of the 'WE11DONE' logo printed in nine distinct retro, varsity, and futuristic block fonts utilizing a mix of white, teal blue, lime green, neon pink, and coral orange shades.",
+            "image": "st14.jpeg",
+            "gallery": ["st14.jpeg"],
+            "tags": ["black", "we11done", "welldone", "long sleeve", "t-shirt", "stacked logo", "multifont", "graphic print", "streetwear", "luxury streetwear"],
+            "inStock": true
+          },
+          {
+            "id": 315,
+            "name": "Popeye the Sailor Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Classic black long-sleeve crewneck t-shirt made from comfortable lightweight cotton. The front showcases a vibrant vintage pop-culture graphic print featuring Popeye the Sailor Man smiling and giving a thumbs-up inside a circular blue frame, highlighted by bold orange 'POPEYE' block typography above the illustration.",
+            "image": "st15.jpeg",
+            "gallery": ["st15.jpeg"],
+            "tags": ["black", "long sleeve", "t-shirt", "popeye", "popeye the sailor", "cartoon graphic", "retro animation", "pop culture", "casual wear", "graphic shirt"],
+            "inStock": true
+          },
+          {
+            "id": 316,
+            "name": "Champion Classic Script Logo Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Essential navy blue long-sleeve crewneck t-shirt made from comfortable mid-weight cotton jersey. Designed with a clean, classic athletic style featuring the iconic Champion script logo screen-printed across the center chest in white cursive lettering with the signature red and blue 'C' emblem.",
+            "image": "st16.jpeg",
+            "gallery": ["st16.jpeg"],
+            "tags": ["navy blue", "champion", "long sleeve", "t-shirt", "script logo", "chest print", "sportswear", "athleisure", "classic style", "cotton shirt"],
+            "inStock": true
+          },
+          {
+            "id": 317,
+            "name": "Kermit the Frog Supreme Style Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Streetwear-inspired black long-sleeve crewneck t-shirt in comfortable cotton fabric. Features a large, iconic front graphic print of Kermit the Frog wearing a classic white graphic t-shirt. Designed in a relaxed silhouette with stretchy ribbed knit wrist cuffs.",
+            "image": "st17.jpeg",
+            "gallery": ["st17.jpeg"],
+            "tags": ["black", "long sleeve", "t-shirt", "kermit", "kermit the frog", "muppets", "graphic shirt", "streetwear style", "pop culture", "casual wear"],
+            "inStock": true
+          },
+          {
+            "id": 318,
+            "name": "Star Artist Grommet Distressed Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Edgy white long-sleeve crewneck t-shirt featuring unique deconstructed elements. Built with silver metal grommet eyelet accents hardware ringed around the front neckline, intentional distressed cutouts and fraying along the bottom left hem, and a faded grey center graphic overlaid with bold black 'STAR ARTIST' text.",
+            "image": "st18.jpeg",
+            "gallery": ["st18.jpeg"],
+            "tags": ["white", "long sleeve", "t-shirt", "star artist", "grommets", "eyelets", "distressed", "deconstructed", "streetwear", "graphic shirt"],
+            "inStock": true
+          },
+          {
+            "id": 319,
+            "name": "Earthy Brown Character Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Casual brown long-sleeve crewneck t-shirt crafted from soft lightweight cotton fabric. The front features a quirky, hand-drawn style cartoon graphic illustration depicting a stylish couple dressed in eclectic vintage streetwear pattern outfits, complete with bags and accessories.",
+            "image": "st19.jpeg",
+            "gallery": ["st19.jpeg"],
+            "tags": ["brown", "tan", "long sleeve", "t-shirt", "graphic shirt", "cartoon graphic", "illustration", "indie style", "vintage aesthetic", "casual wear"],
+            "inStock": true
+          },
+          {
+            "id": 320,
+            "name": "Ombre Dip-Dye Wavy Smiley Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Eye-catching long-sleeve crewneck t-shirt featuring a multi-color gradient ombre dip-dye effect that transitions seamlessly from deep purple at the top, to light sky blue across the chest, down to a dark royal blue at the hem. Detailed with a large black distorted smiley face graphic on the center chest with a wavy zig-zag mouth design.",
+            "image": "st20.jpeg",
+            "gallery": ["st20.jpeg"],
+            "tags": ["ombre", "dip-dye", "gradient", "purple", "blue", "long sleeve", "t-shirt", "smiley face", "wavy smile", "streetwear", "graphic shirt"],
+            "inStock": true
+          },
+          {
+            "id": 321,
+            "name": "Beaster Ombre Gradient Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Eye-catching long-sleeve crewneck t-shirt featuring a multi-color gradient ombre dip-dye effect that transitions from deep purple at the top, to light sky blue across the chest, down to a dark royal blue at the hem. Detailed with black printed Chinese characters that translate to 'Surrealism' above small block text reading 'BEASTER 19SS' across the center chest.",
+            "image": "st21.jpeg",
+            "gallery": ["st21.jpeg"],
+            "tags": ["ombre", "dip-dye", "gradient", "purple", "blue", "beaster", "long sleeve", "t-shirt", "chinese characters", "surrealism", "streetwear"],
+            "inStock": true
+          },
+          {
+            "id": 322,
+            "name": "I Am Sorry For What I Said When I Was Hungry Graphic T-Shirt",
+            "price": 400,
+            "description": "Casual dark navy blue short-sleeve crewneck t-shirt made from comfortable lightweight cotton. Features a humorous graphic print across the center chest with stacked text that reads 'I AM SORRY FOR WHAT I SAID WHEN I WAS HUNGRY.' illustrated with small food graphics including a crown, a hamburger, and a hot dog.",
+            "image": "st22.jpeg",
+            "gallery": ["st22.jpeg"],
+            "tags": ["navy blue", "short sleeve", "t-shirt", "graphic shirt", "slogan tee", "funny quote", "food graphics", "casual wear", "humor"],
+            "inStock": true
+          },
+          {
+            "id": 323,
+            "name": "Hungry Camouflage Graphic T-Shirt",
+            "price": 400,
+            "description": "Casual dark navy blue short-sleeve crewneck t-shirt made from comfortable lightweight cotton jersey. The center chest is detailed with a clean, bubble-style typography text print that reads 'Hungry.' filled with a brown and tan woodland camouflage pattern overlay.",
+            "image": "st23.jpeg",
+            "gallery": ["st23.jpeg"],
+            "tags": ["navy blue", "short sleeve", "t-shirt", "graphic shirt", "slogan tee", "hungry", "camo text", "camouflage", "casual wear"],
+            "inStock": true
+          },
+          {
+            "id": 324,
+            "name": "Porkupine Cartoon Pig Graphic T-Shirt",
+            "price": 400,
+            "description": "Casual bright red short-sleeve crewneck t-shirt crafted from soft, lightweight cotton. Features a quirky, hand-drawn black line-art graphic on the front depicting a round pig character styled with cactus-like spikes or lines, underscored by handwritten text reading 'PORKUPINE'.",
+            "image": "st24.jpeg",
+            "gallery": ["st24.jpeg"],
+            "tags": ["red", "short sleeve", "t-shirt", "graphic shirt", "porkupine", "pig graphic", "line art", "indie style", "casual wear", "humor"],
+            "inStock": true
+          },
+          {
+            "id": 325,
+            "name": "Semir Multi-Tone Horizontal Striped Sweater",
+            "price": 400,
+            "description": "Classic long-sleeve crewneck knit sweater by Semir, styled with broad horizontal blocks in alternating tones of light grey, white, charcoal grey, and black. Crafted from a soft, fine-gauge cotton blend knit fabric, it features a ribbed collar, ribbed wrist cuffs, and a ribbed hemline for a comfortable regular fit.",
+            "image": "st25.jpeg",
+            "gallery": ["st25.jpeg"],
+            "tags": ["semir", "sweater", "knitwear", "stripes", "horizontal stripes", "long sleeve", "grey", "white", "charcoal", "casual wear", "preppy style"],
+            "inStock": true
+          },
+          {
+            "id": 326,
+            "name": "Nely Jersey Style Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Athletic-inspired white long-sleeve crewneck shirt featuring a soccer jersey design. Decorated with a large navy blue number '8' print on the center chest, a smaller number '8' on the left sleeve, a red and black circular Nely crest on the left chest, and various 'NELY' and 'NELY CREW' brand typography logos graphic printed across the front and sleeves.",
+            "image": "st26.jpeg",
+            "gallery": ["st26.jpeg"],
+            "tags": ["white", "long sleeve", "jersey style", "nely", "number 8", "soccer jersey", "athletic wear", "sportswear", "graphic shirt", "streetwear"],
+            "inStock": true
+          },
+          {
+            "id": 327,
+            "name": "Smeer Retro Striped Distressed Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Vintage-inspired long-sleeve crewneck t-shirt featuring a vibrant multi-colored horizontal striped pattern in maroon red, mustard yellow, and light blue. Styled with a script logo embroidery reading 'Smeer' on the left chest, raw stepped side-slit hems, and an intentional deconstructed cutout distressed hole detailing near the bottom right front hem.",
+            "image": "st27.jpeg",
+            "gallery": ["st27.jpeg"],
+            "tags": ["stripes", "horizontal stripes", "retro", "maroon", "yellow", "light blue", "long sleeve", "t-shirt", "smeer", "distressed", "streetwear"],
+            "inStock": true
+          },
+          {
+            "id": 328,
+            "name": "Monster Illustration Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Casual black long-sleeve crewneck t-shirt made from comfortable lightweight cotton. The upper back features a playful, hand-drawn style cartoon graphic illustration depicting a small green creature or monster spouting a row of multi-colored oval shapes across the shoulder area.",
+            "image": "st28.jpeg",
+            "gallery": ["st28.jpeg"],
+            "tags": ["black", "long sleeve", "t-shirt", "back print", "graphic shirt", "monster graphic", "illustration", "indie style", "streetwear", "casual wear"],
+            "inStock": true
+          },
+          {
+            "id": 329,
+            "name": "Micro-Striped Henley Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Casual light blue and white long-sleeve Henley shirt featuring a fine, textured micro-horizontal striped pattern. Designed with a clean V-neckline transitioning into a partial three-button front placket, a matching open chest pocket on the left side, and a relaxed straight-hem silhouette with open cuffs.",
+            "image": "st29.jpeg",
+            "gallery": ["st29.jpeg"],
+            "tags": ["blue", "white", "micro stripe", "horizontal stripes", "henley", "v-neck", "button neck", "long sleeve", "chest pocket", "casual wear"],
+            "inStock": true
+          },
+          {
+            "id": 330,
+            "name": "The Music Festival Poetry Graphic Long-Sleeve Shirt",
+            "price": 400,
+            "description": "Casual dark charcoal grey long-sleeve crewneck t-shirt. The front features a large, detailed graphic layout incorporating a mirrored, distorted 'FORWARD FROM WRITING' headline typography block, red text reading 'THE MUSIC FESTIVAL', a long handwritten poem style text block detailing a dream, and bold 'IN CLOUDS' text at the bottom.",
+            "image": "st30.jpeg",
+            "gallery": ["st30.jpeg"],
+            "tags": ["charcoal grey", "dark grey", "long sleeve", "t-shirt", "graphic shirt", "typography tee", "poetry text", "music festival", "streetwear", "casual wear"],
+            "inStock": true
+          }
+        ]
     }
   ]
 }

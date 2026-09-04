@@ -2,12 +2,16 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { 
   ShoppingBag, Search, MessageSquare, PhoneCall, 
   ShoppingCart, Plus, Minus, Trash2, X, Check, Heart, 
-  ChevronLeft, ChevronRight, Info, MapPin, Mail, ArrowUp
+  ChevronLeft, ChevronRight, Phone, Mail, ArrowUp, Copy
 } from 'lucide-react';
 import inventoryData from './data/quotes.json';
 import './App.css';
 
-const SELLER_WHATSAPP = '254746603149';
+const PRIMARY_WHATSAPP = '254743940502';
+const CONTACT_NUMBERS = [
+  { label: 'Primary Contact', raw: '254743940502', formatted: '0743 940 502' },
+  { label: 'Alternative Line', raw: '254759198196', formatted: '0759 198 196' }
+];
 
 const getAssetUrl = (imageName) => {
   try {
@@ -17,12 +21,24 @@ const getAssetUrl = (imageName) => {
   }
 };
 
+// Helper function: Durstenfeld / Fisher-Yates Shuffle algorithm
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isContactOpen, setIsContactOpen] = useState(false);
   const [addedItemToast, setAddedItemToast] = useState(null);
+  const [copiedToast, setCopiedToast] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
   
   // Likes tracking state
@@ -54,19 +70,29 @@ export default function App() {
     });
   };
 
-  // Extract all products into a flat array
+  // Copy number to clipboard
+  const handleCopyNumber = (number) => {
+    navigator.clipboard.writeText(number);
+    setCopiedToast(true);
+    setTimeout(() => setCopiedToast(false), 2000);
+  };
+
+  // Extract all products into a flat array and randomly shuffle them once on mount
   const allProducts = useMemo(() => {
     if (!inventoryData || !inventoryData.categories) return [];
-    return inventoryData.categories.flatMap((cat) =>
+    const extracted = inventoryData.categories.flatMap((cat) =>
       (cat.items || []).map((item) => ({ ...item, category: cat.category_name }))
     );
+    return shuffleArray(extracted);
   }, []);
 
   const categories = useMemo(() => {
-    return ['All', ...new Set(allProducts.map((p) => p.category).filter(Boolean))];
-  }, [allProducts]);
+    if (!inventoryData || !inventoryData.categories) return ['All'];
+    const originalCategories = inventoryData.categories.map((cat) => cat.category_name).filter(Boolean);
+    return ['All', ...new Set(originalCategories)];
+  }, []);
 
-  // Filter items
+  // Filter items (Category & Search filtering)
   const filteredProducts = useMemo(() => {
     return allProducts.filter((item) => {
       const matchesCategory = selectedCategory === 'All' || item.category === selectedCategory;
@@ -140,24 +166,24 @@ export default function App() {
     }, 0);
   }, [cart]);
 
-  // Contact Seller for Single Product, Cart, or General Inquiry
+  // Contact Seller on WhatsApp
   const handleContactSeller = (product = null) => {
     let message = '';
     if (product) {
       const activePrice = product.discount_price || product.price;
       message = `Hello! I want to inquire about *${product.name}* (ID: #${product.id}) priced at Ksh ${activePrice.toFixed(2)}.`;
     } else if (cart.length > 0) {
-      message = `Hello! I would like to place an order:\n\n`;
+      message = `Hello! I would like to place an order from DESS COLLECTION:\n\n`;
       cart.forEach((item, index) => {
         const price = item.discount_price || item.price;
         message += `${index + 1}. *${item.name}* (Qty: ${item.quantity}) - Ksh ${(price * item.quantity).toFixed(2)}\n`;
       });
       message += `\n*Total Amount:* Ksh ${cartSubtotal.toFixed(2)}`;
     } else {
-      message = `Hello! I would like to inquire about items in SMARTLABELS THRIFT COLLECTION.`;
+      message = `Hello! I would like to inquire about items in DESS COLLECTION.`;
     }
 
-    const whatsappUrl = `https://wa.me/${SELLER_WHATSAPP}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/${PRIMARY_WHATSAPP}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -177,19 +203,19 @@ export default function App() {
               <ShoppingBag size={22} className="brand-icon" />
             </div>
             <h1 className="brand-title">
-              <span>SMARTLABELS</span>
-              <span className="brand-subtitle">THRIFT COLLECTION</span>
+              <span>DESS COLLECTION</span>
+              <span className="brand-subtitle">PREMIUM OUTFITS & ACCESSORIES</span>
             </h1>
           </div>
 
           <div className="header-actions">
             <button
               className="direct-contact"
-              onClick={() => handleContactSeller(null)}
-              title="Contact Seller on WhatsApp"
+              onClick={() => setIsContactOpen(true)}
+              title="Contact Dealer"
             >
               <PhoneCall size={16} />
-              <span className="contact-label">Contact</span>
+              <span className="contact-label">Contacts</span>
             </button>
 
             <button
@@ -208,12 +234,19 @@ export default function App() {
 
       {/* MAIN CONTENT */}
       <main className="store-main">
+        {/* DEALER CATEGORY DESCRIPTION BANNER */}
+        <section className="dealer-banner">
+          <p className="dealer-description">
+            <strong>Dealers in:</strong> Mens wear, Women wear, Kids outfit, Bags, Accessories & All kinds of caps.
+          </p>
+        </section>
+
         {/* SEARCH BAR */}
         <div className="search-wrapper">
           <Search size={18} className="search-icon" />
           <input
             type="text"
-            placeholder="Search clothes..."
+            placeholder="Search clothes, bags, caps, accessories..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="search-input"
@@ -235,7 +268,7 @@ export default function App() {
 
         {/* PRODUCT GRID */}
         {filteredProducts.length === 0 ? (
-          <div className="empty-state">No clothes found matching your search.</div>
+          <div className="empty-state">No items found matching your search.</div>
         ) : (
           <div className="product-grid">
             {filteredProducts.map((item) => {
@@ -324,6 +357,61 @@ export default function App() {
           </div>
         )}
       </main>
+
+      {/* CONTACT DIRECTORY MODAL */}
+      {isContactOpen && (
+        <div className="modal-overlay" onClick={() => setIsContactOpen(false)}>
+          <div className="modal-content contact-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="close-modal-btn" onClick={() => setIsContactOpen(false)}>
+              <X size={20} />
+            </button>
+
+            <div className="contact-modal-header">
+              <PhoneCall size={28} className="contact-modal-icon" />
+              <h3>Contact Dealer</h3>
+              <p>Call directly or chat with us on WhatsApp</p>
+            </div>
+
+            <div className="contact-numbers-list">
+              {CONTACT_NUMBERS.map((num) => (
+                <div key={num.raw} className="contact-number-card">
+                  <div className="number-info">
+                    <span className="number-label">{num.label}</span>
+                    <span className="plain-number">{num.raw}</span>
+                    <span className="formatted-number">{num.formatted}</span>
+                  </div>
+                  <div className="number-actions">
+                    <a 
+                      href={`tel:+${num.raw}`} 
+                      className="contact-action-btn call-btn"
+                      title="Call Phone Number"
+                    >
+                      <Phone size={16} /> Call
+                    </a>
+                    <button 
+                      onClick={() => handleCopyNumber(num.raw)} 
+                      className="contact-action-btn copy-btn"
+                      title="Copy Number"
+                    >
+                      <Copy size={16} /> Copy
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <button 
+              className="whatsapp-modal-btn"
+              onClick={() => {
+                setIsContactOpen(false);
+                handleContactSeller(null);
+              }}
+            >
+              <MessageSquare size={18} /> Direct WhatsApp Chat
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* PRODUCT DETAIL MODAL */}
       {selectedProduct && (
@@ -424,7 +512,7 @@ export default function App() {
                   className="contact-seller-btn"
                   onClick={() => handleContactSeller(selectedProduct)}
                 >
-                  <MessageSquare size={18} /> Contact Seller
+                  <MessageSquare size={18} /> Order on WhatsApp
                 </button>
               </div>
             </div>
@@ -525,10 +613,20 @@ export default function App() {
         </div>
       )}
 
+      {copiedToast && (
+        <div className="toast-notification">
+          <Check size={16} /> Number copied to clipboard!
+        </div>
+      )}
+
       {/* STORE FOOTER */}
       <footer className="store-footer">
+        <div className="footer-contacts">
+          <p><strong>DESS COLLECTION</strong></p>
+          <p>Phone Lines: <a href="tel:+254743940502">254743940502</a> | <a href="tel:+254759198196">254759198196</a></p>
+        </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} SMARTLABELS. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} DESS COLLECTION. All rights reserved.</p>
           <p className="developer-credit">
             Designed by <strong>FAB Software Solutions</strong>
           </p>
